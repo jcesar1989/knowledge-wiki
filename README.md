@@ -38,7 +38,7 @@ convert_pamphlets.py                          OCR pipeline: my_pamphlets/*.pdf -
 prompts/                                      System prompts: lead agent, analyzer, organizer, baseline analyst
 my_pamphlets/                                 The photographed pamphlet PDFs
 pamphlet_corpus/                              OCR'd, provenance-stamped text ready for the wiki build
-assets/                                       Diagrams and benchmark charts used by the notebook
+assets/                                       Diagrams used by the notebook
 originals/                                    Original source material
 ```
 
@@ -59,4 +59,4 @@ originals/                                    Original source material
 
 ## Why bother with a wiki?
 
-A search index finds passages, but the hardest facts come from *comparing* documents: two metrics with the same name, one company under three names, a figure a later document contradicts. The wiki works those out once, at build time. In the notebook's benchmark, a small model answering from the wiki scored within a point of a larger model searching the raw documents, at about 1/15 the price per answer — and about 3 points better than the same small model searching the documents itself.
+A search index finds passages, but the hardest facts come from *comparing* documents: two metrics with the same name, one company under three names, a figure a later document contradicts. The wiki works those out once, at build time, so every question afterward starts from reconciled, cited facts instead of raw text.
