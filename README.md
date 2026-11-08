@@ -35,10 +35,13 @@ Each result is cleaned (embedded images stripped, common OCR confusions like `Al
 distill_documents_into_knowledge_wiki.ipynb   The main notebook: build the wiki, query it, measure cost
 utilities.py                                  Helpers: normalization, batching, workflow tracking, reports
 convert_pamphlets.py                          OCR pipeline: my_pamphlets/*.pdf -> pamphlet_corpus/*.txt
+benchmark.py                                  Wiki-vs-raw-documents benchmark over the pamphlet corpus
+make_benchmark_chart.py                       Renders assets/wiki_benchmark.png from the benchmark results
+benchmark_results.json                        Every benchmark answer, judge score and summary
 prompts/                                      System prompts: lead agent, analyzer, organizer, baseline analyst
 my_pamphlets/                                 The photographed pamphlet PDFs
 pamphlet_corpus/                              OCR'd, provenance-stamped text ready for the wiki build
-assets/                                       Diagrams used by the notebook
+assets/                                       Diagrams and the benchmark chart
 originals/                                    Original source material
 ```
 
@@ -57,6 +60,21 @@ originals/                                    Original source material
    ```
    The notebook estimates the build cost before creating any agent and stops if it exceeds the budget (`COOKBOOK_BUDGET_USD`, default $60). Models for each agent role are also set by environment variable (`COOKBOOK_BUILD_MODEL`, `COOKBOOK_CONSOLIDATE_MODEL`, `COOKBOOK_QUERY_MODEL`, `COOKBOOK_LEAD_MODEL`); the defaults use Claude Haiku 5.5 for the readers and Claude Sonnet 5.5 for the lead agent.
 
+## The benchmark
+
+![Benchmark: on six pamphlets, wiki and raw-document analysts score the same; Haiku from the wiki 92.5 ± 3.9 at $0.0016 per answer](assets/wiki_benchmark.png)
+
+`benchmark.py` measures this corpus's wiki against the raw pamphlet texts: 10 questions with answer keys, asked twice each by four analyst arms (Claude Haiku 5.5 and Claude Sonnet 5.5, each answering from the read-only wiki store and from the raw documents), every answer scored 0–100 against the key by two judge models (Sonnet and Opus). Results from the November 8, 2026 run, with the token cost of one answer at list price:
+
+| Analyst | Score (± 95%) | Cost per answer |
+| --- | --- | --- |
+| Haiku 5.5 from the wiki | 92.5 ± 3.9 | $0.0016 |
+| Haiku 5.5 searching the raw documents | 93.5 ± 5.1 | $0.0013 |
+| Sonnet 5.5 from the wiki | 90.7 ± 5.7 | $0.0196 |
+| Sonnet 5.5 searching the raw documents | 92.1 ± 5.6 | $0.0165 |
+
+The honest readout: on a 32 KB, six-document corpus, every arm ties within the intervals, and raw search is already cheap — the wiki doesn't pay for itself on price at this size (the build cost about $0.43 once). Where it does show up is the cross-document question: asked which customer names appear in more than one pamphlet, wiki analysts score about 95 against about 70 for raw-document analysts, because the wiki already filed those connections at build time. It also shows the flip side — the wiki under-filed one product relationship (Halo Agent Studio as an add-on to the Halo control plane) and wiki analysts lost points there. Full answers and judge scores are in `benchmark_results.json`; re-run with `python benchmark.py` and re-chart with `python make_benchmark_chart.py`.
+
 ## Why bother with a wiki?
 
-A search index finds passages, but the hardest facts come from *comparing* documents: two metrics with the same name, one company under three names, a figure a later document contradicts. The wiki works those out once, at build time, so every question afterward starts from reconciled, cited facts instead of raw text.
+A search index finds passages, but the hardest facts come from *comparing* documents: two metrics with the same name, one company under three names, a figure a later document contradicts. The wiki works those out once, at build time, so every question afterward starts from reconciled, cited facts instead of raw text. On this small corpus that mostly buys accuracy on cross-document questions; the price advantage grows with the corpus, since a raw search has more to read while the wiki answer stays the same size.

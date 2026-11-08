@@ -1,0 +1,1363 @@
+{
+  "ran_at": "2026-11-08T22:46:50.844529+00:00",
+  "wiki_store": "memstore_01KHiinfcC8DsXUD1HJjvJbn",
+  "repeats": 2,
+  "judges": [
+    "claude-sonnet-5-5",
+    "claude-opus-5-5"
+  ],
+  "battery": [
+    {
+      "q": "What security certification does Barndoor's AI Gateway hold, and how many AI models and MCP servers does it support?",
+      "key": "SOC 2 Type II certified; 100+ MCP servers (plus custom) and 100+ AI models (plus self-hosted). [barndoor_ai_gateway]"
+    },
+    {
+      "q": "Who is quoted endorsing Barndoor, and what is their role and company?",
+      "key": "Linda Xu, Director of Data Analytics & AI at MealSuite. [barndoor_ai_gateway]"
+    },
+    {
+      "q": "What share of organizations does C1.ai say experienced an identity-related breach in the past year, and what source does it cite for that statistic?",
+      "key": "80%; cited to C1.ai's 2026 Future of Identity Report, a survey of 505 IT and security leaders at U.S. enterprises (the pamphlet notes the footnote is partially illegible and 505 is a best reading). [c1ai_identity_platform]"
+    },
+    {
+      "q": "How many connectors and MCP servers does C1.ai claim, and what is its open-source connector framework called?",
+      "key": "400+ C1 Connectors built on Baton (its open-source connector framework) and 3,000+ C1 MCP Servers; C1 Bridge reaches on-prem systems. [c1ai_identity_platform]"
+    },
+    {
+      "q": "OmniTrust's Halo line has two pamphlets aimed at different audiences. What is each offering called, and how do the two relate?",
+      "key": "Halo for AI, Security & IT Leadership describes the Halo AI Control Plane (Endpoint, AI Gateway, Compute Cloud); Halo for AI Builders & Business Teams describes Halo Agent Studio. Agent Studio is an add-on to the control plane, using the same Halo identity, policy, runtime and cost controls. [both omnitrust pamphlets]"
+    },
+    {
+      "q": "Both OmniTrust pamphlets cite IDC 2026 projections for 2030. What figures do they give, and do the two pamphlets agree?",
+      "key": "Both cite 459 trillion (459T) agent actions per year globally by 2030 (IDC, 2026), so they agree on that figure; the Security & IT Leadership pamphlet additionally cites 2.5B active AI agents globally by 2030 (IDC, 2026). [both omnitrust pamphlets]"
+    },
+    {
+      "q": "What ratio of machine identities to human identities does OmniTrust cite today?",
+      "key": "109:1 machine identities per human. [omnitrust_halo_security_leadership]"
+    },
+    {
+      "q": "What are the four capabilities in the Merge for Workforce stack?",
+      "key": "Universal context layer; MCP gateway; Model routing; Security suite. [merge_dev_platform]"
+    },
+    {
+      "q": "What does PromptQL call its shared team knowledge feature, and how are updates to it controlled?",
+      "key": "The operational wiki (shared wiki of reviewed knowledge); updates are proposed from the work and people review/approve proposed wiki updates before they become shared context. [promptql_multiplayer_ai]"
+    },
+    {
+      "q": "Which customer or 'trusted by' company names appear in more than one of the six pamphlets, and in which pamphlets?",
+      "key": "Ramp appears for C1.ai and for Merge (Merge for Products 'trusted by'); Instacart appears for C1.ai and for PromptQL. Credit any answer naming Ramp and Instacart with roughly those pamphlet pairs; naming only one of the two is half right. Model providers (e.g. Anthropic, OpenAI as a logo of models) do not count, though OpenAI is also a Merge customer. [cross-pamphlet]"
+    }
+  ],
+  "summary": {
+    "haiku-wiki": {
+      "model": "claude-haiku-5-5",
+      "source": "wiki",
+      "n": 20,
+      "score_mean": 92.5,
+      "score_ci95": 3.9,
+      "usd_per_answer_mean": 0.0
+    },
+    "haiku-raw": {
+      "model": "claude-haiku-5-5",
+      "source": "raw",
+      "n": 20,
+      "score_mean": 93.5,
+      "score_ci95": 5.1,
+      "usd_per_answer_mean": 0.0
+    },
+    "sonnet-wiki": {
+      "model": "claude-sonnet-5-5",
+      "source": "wiki",
+      "n": 20,
+      "score_mean": 90.7,
+      "score_ci95": 5.7,
+      "usd_per_answer_mean": 0.02
+    },
+    "sonnet-raw": {
+      "model": "claude-sonnet-5-5",
+      "source": "raw",
+      "n": 20,
+      "score_mean": 92.1,
+      "score_ci95": 5.6,
+      "usd_per_answer_mean": 0.017
+    }
+  },
+  "answers": [
+    {
+      "arm": "haiku-wiki",
+      "question_i": 0,
+      "repeat": 1,
+      "question": "What security certification does Barndoor's AI Gateway hold, and how many AI models and MCP servers does it support?",
+      "key": "SOC 2 Type II certified; 100+ MCP servers (plus custom) and 100+ AI models (plus self-hosted). [barndoor_ai_gateway]",
+      "answer": "Barndoor's AI Gateway is claimed to hold **SOC 2 Type II** certification. It supports **100+ AI models** (plus self-hosted) and **100+ MCP servers** (plus custom). All three figures are vendor-stated and unaudited, and the wiki has no SOC 2 report or bridge letter in the data room [barndoor-ai-gateway | as-of: 2026-11; metrics/barndoor-ai-gateway.md, entities/barndoor.md]. The wiki reports no conflicting figures.",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01W9z1wBLmbciNVfXa6C371J",
+      "judge_scores": {
+        "claude-sonnet-5-5": 95.0,
+        "claude-opus-5-5": 93.0
+      },
+      "score": 94.0
+    },
+    {
+      "arm": "haiku-wiki",
+      "question_i": 2,
+      "repeat": 0,
+      "question": "What share of organizations does C1.ai say experienced an identity-related breach in the past year, and what source does it cite for that statistic?",
+      "key": "80%; cited to C1.ai's 2026 Future of Identity Report, a survey of 505 IT and security leaders at U.S. enterprises (the pamphlet notes the footnote is partially illegible and 505 is a best reading). [c1ai_identity_platform]",
+      "answer": "Per the wiki, C1.ai says 80% of organizations experienced at least one identity-related breach in the past year [source: c1ai-identity-platform | as-of: 2026-11; metrics/c1ai-identity-platform.md]. It cites its own \"C1.ai, 2026 Future of Identity Report\" in footnote 1 of the C1 Identity Platform brief.\n\nCaveats: the survey base is 505 U.S. IT and security leaders, but that is only a best reading of a partly illegible footnote, so treat it as unverified. The report itself is not in the data room, so the statistic cannot be checked against it. The wiki flags this as an open question and an escalation (item 5).",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_017gV2L5QPdJ2vjvAy76pUVL",
+      "judge_scores": {
+        "claude-sonnet-5-5": 96.0,
+        "claude-opus-5-5": 95.0
+      },
+      "score": 95.5
+    },
+    {
+      "arm": "haiku-wiki",
+      "question_i": 2,
+      "repeat": 1,
+      "question": "What share of organizations does C1.ai say experienced an identity-related breach in the past year, and what source does it cite for that statistic?",
+      "key": "80%; cited to C1.ai's 2026 Future of Identity Report, a survey of 505 IT and security leaders at U.S. enterprises (the pamphlet notes the footnote is partially illegible and 505 is a best reading). [c1ai_identity_platform]",
+      "answer": "Per the wiki, C1.ai says 80% of organizations experienced at least one identity-related breach in the past year [source: c1ai-identity-platform | as-of: 2026-11; metrics/c1ai-identity-platform.md]. The statistic is cited to the \"C1.ai, 2026 Future of Identity Report,\" which is C1.ai's own report (footnote 1 of the C1 Identity Platform brief) [source: c1ai-identity-platform | as-of: 2026-11].\n\nCaveats: the footnote is partly illegible, so the survey base of 505 U.S. IT and security leaders is only a best reading [source: c1ai-identity-platform | as-of: 2026-11]. The report itself is not in the data room, so the figure cannot be verified from the wiki. Obtaining that report is an open question [source: open_questions/c1ai-identity-platform.md].",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_013UyPSGQRtwN7vzAuknUkhB",
+      "judge_scores": {
+        "claude-sonnet-5-5": 96.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 96.5
+    },
+    {
+      "arm": "haiku-wiki",
+      "question_i": 1,
+      "repeat": 0,
+      "question": "Who is quoted endorsing Barndoor, and what is their role and company?",
+      "key": "Linda Xu, Director of Data Analytics & AI at MealSuite. [barndoor_ai_gateway]",
+      "answer": "Linda Xu is the person quoted endorsing Barndoor. She is Director of Data Analytics & AI at MealSuite. Her quote, \"Barndoor allows us to feel we can sleep better,\" appears in Barndoor's own marketing pamphlet and is an unverified vendor testimonial [barndoor-ai-gateway | as-of: 2026-11; entities/linda-xu.md]. The wiki also names MealSuite as a Barndoor customer, but it does not confirm that relationship anywhere else [barndoor-ai-gateway | as-of: 2026-11; entities/barndoor.md]. No CONFLICT lines were found.",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01GKq6e3E5JkJz8kV9LUdyGu",
+      "judge_scores": {
+        "claude-sonnet-5-5": 95.0,
+        "claude-opus-5-5": 95.0
+      },
+      "score": 95.0
+    },
+    {
+      "arm": "haiku-wiki",
+      "question_i": 0,
+      "repeat": 0,
+      "question": "What security certification does Barndoor's AI Gateway hold, and how many AI models and MCP servers does it support?",
+      "key": "SOC 2 Type II certified; 100+ MCP servers (plus custom) and 100+ AI models (plus self-hosted). [barndoor_ai_gateway]",
+      "answer": "Barndoor's AI Gateway is claimed to hold **SOC 2 Type II** certification, and it supports **100+ AI models** (plus self-hosted) and **100+ MCP servers** (plus custom). All three figures are vendor claims: the SOC 2 claim is self-reported with no report in the data room, and the counts are unaudited marketing figures [barndoor-ai-gateway | as-of: 2026-11]; [barndoor | as-of: 2026-11]. No conflicting figures appear in the wiki.",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01EqtHVzHUzuWoSTz7RC62sp",
+      "judge_scores": {
+        "claude-sonnet-5-5": 95.0,
+        "claude-opus-5-5": 95.0
+      },
+      "score": 95.0
+    },
+    {
+      "arm": "haiku-wiki",
+      "question_i": 1,
+      "repeat": 1,
+      "question": "Who is quoted endorsing Barndoor, and what is their role and company?",
+      "key": "Linda Xu, Director of Data Analytics & AI at MealSuite. [barndoor_ai_gateway]",
+      "answer": "The quote comes from **Linda Xu, Director of Data Analytics & AI at MealSuite**. The testimonial reads \"Barndoor allows us to feel we can sleep better.\" It appears in the Barndoor AI Gateway pamphlet (Nov 2026) [source: barndoor-ai-gateway | as-of: 2026-11, via entities/barndoor.md and entities/linda-xu.md].\n\nThe wiki flags it as vendor marketing. Her title and role are printed in the pamphlet but not independently verified, and the MealSuite\u2013Barndoor customer relationship it implies is not confirmed in any other document [source: barndoor-ai-gateway | as-of: 2026-11].",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01BPM4BCkpvBquYZMfmjqPEx",
+      "judge_scores": {
+        "claude-sonnet-5-5": 95.0,
+        "claude-opus-5-5": 95.0
+      },
+      "score": 95.0
+    },
+    {
+      "arm": "haiku-wiki",
+      "question_i": 4,
+      "repeat": 0,
+      "question": "OmniTrust's Halo line has two pamphlets aimed at different audiences. What is each offering called, and how do the two relate?",
+      "key": "Halo for AI, Security & IT Leadership describes the Halo AI Control Plane (Endpoint, AI Gateway, Compute Cloud); Halo for AI Builders & Business Teams describes Halo Agent Studio. Agent Studio is an add-on to the control plane, using the same Halo identity, policy, runtime and cost controls. [both omnitrust pamphlets]",
+      "answer": "**Offerings:** The Halo line has two offerings in the batch-01 pamphlets. The security and IT pamphlet promotes the **Halo AI Control Plane** (also called Halo for AI, Security & IT Leadership). The builders pamphlet promotes **Halo Agent Studio** [source: omnitrust, Current picture | as-of: 2026-11].\n\n**Relationship:** Halo Agent Studio is an add-on to the Halo AI Control Plane, sold to business teams and AI builders [source: omnitrust-halo-security-leadership, relations | as-of: 2026-11; omnitrust-halo-builders | as-of: 2026-11]. The builders pamphlet also describes a \"HALO Control Plane\" as one layer of the Agent Studio stack [source: omnitrust-halo-builders | as-of: 2026-11]. The wiki flags this as a naming ambiguity: it does not say whether that layer and the security pamphlet's \"Halo AI Control Plane\" are the same component [source: omnitrust, Current picture | as-of: 2026-11]. The builders pamphlet also says Agent Studio is powered by OmniTrust's AI Lifecycle Management platform, with the ILM/PKI Agentic Identity Fabric supplying agent identity [source: omnitrust-halo-builders | as-of: 2026-11].",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_016KhcTCRsRBcYZdWY16au7V",
+      "judge_scores": {
+        "claude-sonnet-5-5": 72.0
+      },
+      "score": 72.0
+    },
+    {
+      "arm": "haiku-wiki",
+      "question_i": 4,
+      "repeat": 1,
+      "question": "OmniTrust's Halo line has two pamphlets aimed at different audiences. What is each offering called, and how do the two relate?",
+      "key": "Halo for AI, Security & IT Leadership describes the Halo AI Control Plane (Endpoint, AI Gateway, Compute Cloud); Halo for AI Builders & Business Teams describes Halo Agent Studio. Agent Studio is an add-on to the control plane, using the same Halo identity, policy, runtime and cost controls. [both omnitrust pamphlets]",
+      "answer": "**Offerings:** The security and IT pamphlet (\"Halo for AI, Security & IT Leadership\") presents the **Halo AI Control Plane**. The builders pamphlet (\"Halo for AI Builders\") presents **Halo Agent Studio**. [omnitrust | as-of 2026-11; omnitrust-halo-security-leadership, omnitrust-halo-builders]\n\n**Relationship:** The wiki treats them as two offerings from the same vendor, OmniTrust Security LLC, and describes Halo Agent Studio as an add-on. [omnitrust-halo-security-leadership relations, omnitrust-halo-builders relations | 2026-11] Agent Studio is described as powered by OmniTrust's AI Lifecycle Management platform, with an ILM/PKI Agentic Identity Fabric supplying agent identity. [omnitrust-halo-builders | 2026-11] The builders pamphlet also places a \"HALO Control Plane\" as a layer under Agent Studio (Governance, Identity, Runtime Protection). [omnitrust-halo-builders | 2026-11]\n\n**CONFLICT / unresolved:** The security pamphlet names \"Halo AI Control Plane,\" while the builders pamphlet names \"HALO Control Plane.\" The wiki does not say whether these are the same component. [omnitrust, Naming ambiguity | 2026-11]\n\n**Not in the wiki:** A contract or ownership document would be needed to confirm whether the Agentic Identity Fabric is licensed separately from Agent Studio.",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01U4ECVGtxjHgU6nzv6QB6w8",
+      "judge_scores": {
+        "claude-sonnet-5-5": 62.0
+      },
+      "score": 62.0
+    },
+    {
+      "arm": "haiku-wiki",
+      "question_i": 5,
+      "repeat": 1,
+      "question": "Both OmniTrust pamphlets cite IDC 2026 projections for 2030. What figures do they give, and do the two pamphlets agree?",
+      "key": "Both cite 459 trillion (459T) agent actions per year globally by 2030 (IDC, 2026), so they agree on that figure; the Security & IT Leadership pamphlet additionally cites 2.5B active AI agents globally by 2030 (IDC, 2026). [both omnitrust pamphlets]",
+      "answer": "Both pamphlets attribute 2030 figures to IDC 2026, and they agree on the one figure they share. The Builders pamphlet gives **459 trillion agent actions per year globally by 2030** [omnitrust-halo-builders | as-of: 2026-11]. The Security & IT Leadership pamphlet repeats that 459T figure and adds **2.5 billion active AI agents globally by 2030** [omnitrust-halo-security-leadership | as-of: 2026-11]. The 2.5B figure appears only in the Security pamphlet, so there is no conflict between them, just one figure that the Builders pamphlet does not mention.\n\nBoth figures are \"as cited by vendor,\" and the wiki says the underlying IDC 2026 report is not in the data room. Request that report before relying on either number. The wiki also warns not to combine 2.5B agents and 459T actions as one metric, since they measure different things [omnitrust | as-of: 2026-11].",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_015LQQMq8pncxoYRiBnuGZ7H",
+      "judge_scores": {
+        "claude-sonnet-5-5": 96.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 96.5
+    },
+    {
+      "arm": "haiku-wiki",
+      "question_i": 3,
+      "repeat": 1,
+      "question": "How many connectors and MCP servers does C1.ai claim, and what is its open-source connector framework called?",
+      "key": "400+ C1 Connectors built on Baton (its open-source connector framework) and 3,000+ C1 MCP Servers; C1 Bridge reaches on-prem systems. [c1ai_identity_platform]",
+      "answer": "C1.ai claims **400+ connectors** and **3,000+ MCP servers**. Both are vendor-stated marketing figures [source: c1ai-identity-platform | as-of: 2026-11]. The open-source connector framework is called **Baton**, and the connectors are built on it [source: c1ai-identity-platform | as-of: 2026-11]. No conflicts were found in the wiki.",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01K3PvPoLdy6C3E5rFKkPnDa",
+      "judge_scores": {
+        "claude-sonnet-5-5": 93.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 95.0
+    },
+    {
+      "arm": "haiku-wiki",
+      "question_i": 3,
+      "repeat": 0,
+      "question": "How many connectors and MCP servers does C1.ai claim, and what is its open-source connector framework called?",
+      "key": "400+ C1 Connectors built on Baton (its open-source connector framework) and 3,000+ C1 MCP Servers; C1 Bridge reaches on-prem systems. [c1ai_identity_platform]",
+      "answer": "C1.ai claims **400+ connectors** and **3,000+ MCP servers**, both as vendor-stated marketing figures [source: c1ai-identity-platform | as-of: 2026-11; metrics/c1ai-identity-platform.md]. Its open-source connector framework is called **Baton**, which the connectors are built on [source: c1ai-identity-platform | as-of: 2026-11; entities/c1ai.md].",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01PEuZHcLbT7XLUTCjKXTLHc",
+      "judge_scores": {
+        "claude-sonnet-5-5": 93.0,
+        "claude-opus-5-5": 96.0
+      },
+      "score": 94.5
+    },
+    {
+      "arm": "haiku-wiki",
+      "question_i": 5,
+      "repeat": 0,
+      "question": "Both OmniTrust pamphlets cite IDC 2026 projections for 2030. What figures do they give, and do the two pamphlets agree?",
+      "key": "Both cite 459 trillion (459T) agent actions per year globally by 2030 (IDC, 2026), so they agree on that figure; the Security & IT Leadership pamphlet additionally cites 2.5B active AI agents globally by 2030 (IDC, 2026). [both omnitrust pamphlets]",
+      "answer": "The two pamphlets agree on the one IDC figure they share, and neither gives the underlying IDC 2026 report.\n\n- **Halo for AI Builders pamphlet:** 459T agent actions per year globally by 2030, attributed to IDC 2026 as cited by the vendor [omnitrust-halo-builders | as-of 2026-11; metrics/omnitrust-halo-builders.md and entities/omnitrust.md].\n- **Halo for AI, Security and IT Leadership pamphlet:** 2.5B active AI agents globally by 2030, and 459T agent actions per year by 2030, both attributed to IDC 2026 as cited by the vendor [omnitrust-halo-security-leadership | as-of 2026-11; metrics/omnitrust-halo-security-leadership.md].\n\nThe wiki marks no CONFLICT between them. The only difference is that the Security pamphlet also gives the 2.5B figure, which the Builders pamphlet does not. The wiki also warns that the 2.5B and 459T figures measure different things, so they should not be combined [escalations.md, item 2].\n\nNot in the wiki: the IDC 2026 report itself. The open questions say it is not in the data room, and the deal team should request it [open_questions/omnitrust-halo-builders.md].",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01A2ZeJKnJxSEfyETmG3nK3F",
+      "judge_scores": {
+        "claude-sonnet-5-5": 95.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 96.0
+    },
+    {
+      "arm": "haiku-wiki",
+      "question_i": 6,
+      "repeat": 0,
+      "question": "What ratio of machine identities to human identities does OmniTrust cite today?",
+      "key": "109:1 machine identities per human. [omnitrust_halo_security_leadership]",
+      "answer": "The wiki cites **109:1** (109 machine identities per human) as \"today.\" It comes from the OmniTrust Halo security-leadership pamphlet, dated 2026-11, and is labelled \"vendor marketing figure, no source named\" [source: omnitrust-halo-security-leadership | as-of: 2026-11; metrics/omnitrust-halo-security-leadership.md]. The OmniTrust entity file repeats this with no source named [source: omnitrust-halo-security-leadership | as-of: 2026-11; entities/omnitrust.md]. I found no CONFLICT line on this figure. Because the ratio has no named source, it should not be quoted as an established statistic.",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01B92Fes3B4767JuNZRkmu6E",
+      "judge_scores": {
+        "claude-sonnet-5-5": 95.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 96.0
+    },
+    {
+      "arm": "haiku-wiki",
+      "question_i": 7,
+      "repeat": 1,
+      "question": "What are the four capabilities in the Merge for Workforce stack?",
+      "key": "Universal context layer; MCP gateway; Model routing; Security suite. [merge_dev_platform]",
+      "answer": "The four Merge for Workforce capabilities are: **universal context layer, MCP gateway** (distributing approved connectors and skills), **model routing** (routing, capping and controlling AI spend), and **security suite**. [merge.md, Products section, cites merge-dev-platform | as-of 2026-11]",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_012FMNpZPju2bwRhriHrGheP",
+      "judge_scores": {
+        "claude-sonnet-5-5": 96.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 96.5
+    },
+    {
+      "arm": "haiku-wiki",
+      "question_i": 6,
+      "repeat": 1,
+      "question": "What ratio of machine identities to human identities does OmniTrust cite today?",
+      "key": "109:1 machine identities per human. [omnitrust_halo_security_leadership]",
+      "answer": "The wiki says OmniTrust cites **109:1 machine identities per human** \"today,\" but gives no source for it. The Halo security pamphlet states it as a vendor marketing figure with no source named, as of 2026-11 [source: omnitrust-halo-security-leadership | as-of: 2026-11; metrics/omnitrust-halo-security-leadership.md]. The OmniTrust entity page repeats this, also unsourced [source: omnitrust-halo-security-leadership | as-of: 2026-11; entities/omnitrust.md]. The wiki flags it as a red flag in the escalations list, noting the figure has no named source [escalations.md]. No CONFLICT lines were found.",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01TSRCBRPVngEHAsYNVnw3FJ",
+      "judge_scores": {
+        "claude-sonnet-5-5": 95.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 96.0
+    },
+    {
+      "arm": "haiku-wiki",
+      "question_i": 7,
+      "repeat": 0,
+      "question": "What are the four capabilities in the Merge for Workforce stack?",
+      "key": "Universal context layer; MCP gateway; Model routing; Security suite. [merge_dev_platform]",
+      "answer": "The Merge for Workforce stack has four named capabilities: a **universal context layer**, an **MCP gateway** (distributes approved connectors and skills), **model routing** (routes, caps and controls AI spend), and a **security suite**. [merge entity, Products section | source: merge-dev-platform | as-of: 2026-11]",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01ShSncPvD8UBF1CSjTNAmTe",
+      "judge_scores": {
+        "claude-sonnet-5-5": 96.0,
+        "claude-opus-5-5": 98.0
+      },
+      "score": 97.0
+    },
+    {
+      "arm": "haiku-wiki",
+      "question_i": 8,
+      "repeat": 0,
+      "question": "What does PromptQL call its shared team knowledge feature, and how are updates to it controlled?",
+      "key": "The operational wiki (shared wiki of reviewed knowledge); updates are proposed from the work and people review/approve proposed wiki updates before they become shared context. [promptql_multiplayer_ai]",
+      "answer": "PromptQL calls it the **shared operational wiki**. Proposed updates that come out of work are reviewed by people before they become shared knowledge; the pamphlet also calls these \"context updates\" [promptql-multiplayer-ai | as-of: 2026-11, via entities/promptql.md and relations/promptql-multiplayer-ai.md]. The wiki does not say who the reviewers are, what approval workflow applies, or whether reviewers can be configured. Those details would need the PromptQL product documentation or admin guide, which is not in the data room. No conflicts were found.",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01GSzVuDF6G7cKKpDwXtDkFd",
+      "judge_scores": {
+        "claude-sonnet-5-5": 92.0,
+        "claude-opus-5-5": 95.0
+      },
+      "score": 93.5
+    },
+    {
+      "arm": "haiku-wiki",
+      "question_i": 8,
+      "repeat": 1,
+      "question": "What does PromptQL call its shared team knowledge feature, and how are updates to it controlled?",
+      "key": "The operational wiki (shared wiki of reviewed knowledge); updates are proposed from the work and people review/approve proposed wiki updates before they become shared context. [promptql_multiplayer_ai]",
+      "answer": "PromptQL calls it the **shared operational wiki**. Updates to it are gated by human review: proposed updates (or \"context updates\") generated from work are reviewed by people before they become shared knowledge [entities/promptql.md, Products | source: promptql-multiplayer-ai | as-of: 2026-11].\n\nThe wiki does not describe any further controls, such as who the reviewers are, roles, or approval workflow details. Those would need the PromptQL product documentation or the source pamphlet's full text, which the wiki does not include.",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_012cqac58RDFeGMokEv3NcKS",
+      "judge_scores": {
+        "claude-sonnet-5-5": 95.0,
+        "claude-opus-5-5": 95.0
+      },
+      "score": 95.0
+    },
+    {
+      "arm": "haiku-raw",
+      "question_i": 0,
+      "repeat": 1,
+      "question": "What security certification does Barndoor's AI Gateway hold, and how many AI models and MCP servers does it support?",
+      "key": "SOC 2 Type II certified; 100+ MCP servers (plus custom) and 100+ AI models (plus self-hosted). [barndoor_ai_gateway]",
+      "answer": "Barndoor's AI Gateway holds **SOC 2 Type II certification**, and it supports **100+ AI models** (plus self-hosted models) and **100+ MCP servers** (plus custom ones).\n\nSource: `barndoor_ai_gateway.txt`, the metrics table on page 1 (lines 15\u201319), with the SOC 2 Type II claim repeated on page 2 (line 58).",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01JfuicHhqcv4AXRMBKvsXRW",
+      "judge_scores": {
+        "claude-sonnet-5-5": 97.0,
+        "claude-opus-5-5": 100.0
+      },
+      "score": 98.5
+    },
+    {
+      "arm": "haiku-raw",
+      "question_i": 0,
+      "repeat": 0,
+      "question": "What security certification does Barndoor's AI Gateway hold, and how many AI models and MCP servers does it support?",
+      "key": "SOC 2 Type II certified; 100+ MCP servers (plus custom) and 100+ AI models (plus self-hosted). [barndoor_ai_gateway]",
+      "answer": "Barndoor's AI Gateway holds **SOC 2 Type II** certification. It supports **100+ AI models** (plus self-hosted models) and **100+ MCP servers** (plus custom ones). Source: `barndoor_ai_gateway.txt`, metrics table on page 1 (lines 15\u201319); the SOC 2 Type II claim also appears on page 2 (line 58).",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_013EeauvjfumYR9VRFovsMhU",
+      "judge_scores": {
+        "claude-sonnet-5-5": 97.0,
+        "claude-opus-5-5": 100.0
+      },
+      "score": 98.5
+    },
+    {
+      "arm": "haiku-raw",
+      "question_i": 1,
+      "repeat": 0,
+      "question": "Who is quoted endorsing Barndoor, and what is their role and company?",
+      "key": "Linda Xu, Director of Data Analytics & AI at MealSuite. [barndoor_ai_gateway]",
+      "answer": "The only endorsement of Barndoor in the data room is from **Linda Xu**, Director of Data Analytics & AI at **MealSuite**. The quote (\"Barndoor allows us to feel we can sleep better\") appears on the Barndoor.ai \"AI Gateway\" pamphlet, `barndoor_ai_gateway.txt`, lines 65\u201367. Note that this is a testimonial printed in Barndoor's own marketing, so it is not independent verification.",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01B92Fes66RUMzVCfc6XxU8U",
+      "judge_scores": {
+        "claude-sonnet-5-5": 96.0,
+        "claude-opus-5-5": 98.0
+      },
+      "score": 97.0
+    },
+    {
+      "arm": "haiku-wiki",
+      "question_i": 9,
+      "repeat": 0,
+      "question": "Which customer or 'trusted by' company names appear in more than one of the six pamphlets, and in which pamphlets?",
+      "key": "Ramp appears for C1.ai and for Merge (Merge for Products 'trusted by'); Instacart appears for C1.ai and for PromptQL. Credit any answer naming Ramp and Instacart with roughly those pamphlet pairs; naming only one of the two is half right. Model providers (e.g. Anthropic, OpenAI as a logo of models) do not count, though OpenAI is also a Merge customer. [cross-pamphlet]",
+      "answer": "**Two names appear in more than one pamphlet:**\n\n- **Ramp**: in the C1 Identity Platform brief (customer logo; About text says Ramp trusts C1.ai) and in the Merge pamphlet (listed under \"Trusted by\" for Merge for Products). [c1ai-identity-platform | 2026-11], [merge-dev-platform | 2026-11], per entities/ramp.md.\n- **Instacart**: in the C1 Identity Platform brief (customer logo) and the PromptQL pamphlet (customer logo). [c1ai-identity-platform | 2026-11], [promptql-multiplayer-ai | 2026-11], per entities/instacart.md.\n\nAll other customer names appear in only one pamphlet: Zscaler and Qualtrics (C1.ai), Cisco, Morgan Stanley and Bank of America (PromptQL), OpenAI and Dropbox (Merge), and MealSuite and Formlabs (Barndoor). The wiki has no CONFLICT lines on these. Neither overlap states contract terms. The wiki's coverage is limited to the three pamphlets it has relations for, and I did not open the source documents, so a name shown only as an image logo that the wiki did not extract would not appear here.",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01FDNVHW9qBLdWeVAuHRWrUM",
+      "judge_scores": {
+        "claude-sonnet-5-5": 92.0,
+        "claude-opus-5-5": 95.0
+      },
+      "score": 93.5
+    },
+    {
+      "arm": "haiku-raw",
+      "question_i": 1,
+      "repeat": 1,
+      "question": "Who is quoted endorsing Barndoor, and what is their role and company?",
+      "key": "Linda Xu, Director of Data Analytics & AI at MealSuite. [barndoor_ai_gateway]",
+      "answer": "Linda Xu is quoted endorsing Barndoor. She is Director of Data Analytics & AI at MealSuite. The quote, \"Barndoor allows us to feel we can sleep better,\" appears in the Barndoor AI Gateway pamphlet (barndoor_ai_gateway.txt, the testimonial near the end of the document).",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01P7kA2SXboU4goESqonWhDm",
+      "judge_scores": {
+        "claude-sonnet-5-5": 92.0,
+        "claude-opus-5-5": 96.0
+      },
+      "score": 94.0
+    },
+    {
+      "arm": "haiku-raw",
+      "question_i": 3,
+      "repeat": 0,
+      "question": "How many connectors and MCP servers does C1.ai claim, and what is its open-source connector framework called?",
+      "key": "400+ C1 Connectors built on Baton (its open-source connector framework) and 3,000+ C1 MCP Servers; C1 Bridge reaches on-prem systems. [c1ai_identity_platform]",
+      "answer": "C1.ai claims **400+ C1 Connectors** and **3,000+ C1 MCP Servers**. Its open-source connector framework is called **Baton**.\n\nSource: `c1ai_identity_platform.txt`, lines 51\u201352 (C1.ai \"C1 Identity Platform\" solution brief, transcribed from a photographed pamphlet).",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01A9j3ZVpcYt5kmWz27SSN1Q",
+      "judge_scores": {
+        "claude-sonnet-5-5": 92.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 94.5
+    },
+    {
+      "arm": "haiku-raw",
+      "question_i": 3,
+      "repeat": 1,
+      "question": "How many connectors and MCP servers does C1.ai claim, and what is its open-source connector framework called?",
+      "key": "400+ C1 Connectors built on Baton (its open-source connector framework) and 3,000+ C1 MCP Servers; C1 Bridge reaches on-prem systems. [c1ai_identity_platform]",
+      "answer": "C1.ai claims **400+ C1 Connectors** and **3,000+ C1 MCP Servers**. Its open-source connector framework is called **Baton**. Source: `c1ai_identity_platform.txt` (lines 51\u201352 for the counts, line 51 for Baton).",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_012zKnPawYRAaBFNSsQ9Bp8d",
+      "judge_scores": {
+        "claude-sonnet-5-5": 95.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 96.0
+    },
+    {
+      "arm": "haiku-raw",
+      "question_i": 2,
+      "repeat": 1,
+      "question": "What share of organizations does C1.ai say experienced an identity-related breach in the past year, and what source does it cite for that statistic?",
+      "key": "80%; cited to C1.ai's 2026 Future of Identity Report, a survey of 505 IT and security leaders at U.S. enterprises (the pamphlet notes the footnote is partially illegible and 505 is a best reading). [c1ai_identity_platform]",
+      "answer": "C1.ai says **80% of organizations** experienced at least one identity-related breach in the past year (c1ai_identity_platform.txt, line 13).\n\nThe source it cites is footnote 1: \"C1.ai, 2026 *Future of Identity Report*, a survey of 505 IT and security leaders at U.S. enterprises\" (c1ai_identity_platform.txt, line 71). The footnote is partially illegible in the scan, so the sample size of 505 is a best reading. The report is C1.ai's own survey, not an independent study.",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_014xvCaKXaCyBYaCHtFNYvvy",
+      "judge_scores": {
+        "claude-sonnet-5-5": 96.0,
+        "claude-opus-5-5": 98.0
+      },
+      "score": 97.0
+    },
+    {
+      "arm": "haiku-raw",
+      "question_i": 2,
+      "repeat": 0,
+      "question": "What share of organizations does C1.ai say experienced an identity-related breach in the past year, and what source does it cite for that statistic?",
+      "key": "80%; cited to C1.ai's 2026 Future of Identity Report, a survey of 505 IT and security leaders at U.S. enterprises (the pamphlet notes the footnote is partially illegible and 505 is a best reading). [c1ai_identity_platform]",
+      "answer": "C1.ai says **80% of organizations** experienced at least one identity-related breach in the past year (`c1ai_identity_platform.txt`, line 13).\n\nThe source it cites is its own **\"2026 Future of Identity Report,\"** described in the footnote as a survey of 505 IT and security leaders at U.S. enterprises (`c1ai_identity_platform.txt`, footnote 1). The footnote is partly illegible in the scan, so the sample size of 505 is a best reading. The report itself is not in the data room, so I could not check the survey method or the 80% figure against it.",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01NzakmGeDyoZKt24Gnx9ac1",
+      "judge_scores": {
+        "claude-sonnet-5-5": 97.0,
+        "claude-opus-5-5": 100.0
+      },
+      "score": 98.5
+    },
+    {
+      "arm": "haiku-wiki",
+      "question_i": 9,
+      "repeat": 1,
+      "question": "Which customer or 'trusted by' company names appear in more than one of the six pamphlets, and in which pamphlets?",
+      "key": "Ramp appears for C1.ai and for Merge (Merge for Products 'trusted by'); Instacart appears for C1.ai and for PromptQL. Credit any answer naming Ramp and Instacart with roughly those pamphlet pairs; naming only one of the two is half right. Model providers (e.g. Anthropic, OpenAI as a logo of models) do not count, though OpenAI is also a Merge customer. [cross-pamphlet]",
+      "answer": "Two names appear in more than one pamphlet:\n\n- **Ramp**: C1.ai's identity brief (customer logo and About text) [c1ai-identity-platform | 2026-11], and the Merge pamphlet (Merge for Products customer logos) [merge-dev-platform | 2026-11].\n- **Instacart**: C1.ai's identity brief (customer logo) [c1ai-identity-platform | 2026-11], and the PromptQL pamphlet (customer logo) [promptql-multiplayer-ai | 2026-11].\n\nOpenAI and Dropbox appear in the Merge pamphlet under both product lines, but that is one pamphlet, so they don't count as cross-pamphlet overlaps. Nothing in the wiki's customer-name searches matched the two OmniTrust pamphlets or the Barndoor pamphlet for these names. All of these are vendor marketing with no contract evidence, which the wiki's escalation list already flags [escalations | 2026-11].",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01ShSncPy6Wh1dZv5i5k6nUY",
+      "judge_scores": {
+        "claude-sonnet-5-5": 95.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 96.0
+    },
+    {
+      "arm": "haiku-raw",
+      "question_i": 4,
+      "repeat": 0,
+      "question": "OmniTrust's Halo line has two pamphlets aimed at different audiences. What is each offering called, and how do the two relate?",
+      "key": "Halo for AI, Security & IT Leadership describes the Halo AI Control Plane (Endpoint, AI Gateway, Compute Cloud); Halo for AI Builders & Business Teams describes Halo Agent Studio. Agent Studio is an add-on to the control plane, using the same Halo identity, policy, runtime and cost controls. [both omnitrust pamphlets]",
+      "answer": "The two pamphlets are **\"Halo for AI, Security & IT Leadership\"** and **\"Halo for AI Builders & Business Teams\"** (both by OmniTrust).\n\n- **Leadership pamphlet:** The core offering is the **Halo AI Control Plane**, an independent layer for discovering AI use, enforcing data and policy, and optimizing cost. It is built from Halo Endpoint, Halo AI Gateway and Halo Compute Cloud. Halo Agent Studio appears only as an \"Add-On\" (omnitrust_halo_security_leadership.txt, lines 3, 26, 40\u201349).\n- **Builders pamphlet:** The offering it promotes is **Halo Agent Studio**, an environment where business teams and builders create, deploy and run AI agents connected to enterprise apps and data (omnitrust_halo_builders.txt, lines 3, 8).\n\n**Relationship:** Agent Studio is the agent-building product for the builder audience, and the leadership pamphlet presents it as an add-on to the control plane. Agent Studio uses the same Halo identity, data protection, policy, runtime and cost controls that the control plane provides (leadership pamphlet, line 49; builders pamphlet, line 69). Both pamphlets also name OmniTrust's ILM/PKI Agentic Identity Fabric as the identity foundation (leadership pamphlet, line 73; builders pamphlet, line 71).",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01QECmNynSufUYoW32LJ7g74",
+      "judge_scores": {
+        "claude-sonnet-5-5": 95.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 96.0
+    },
+    {
+      "arm": "haiku-raw",
+      "question_i": 4,
+      "repeat": 1,
+      "question": "OmniTrust's Halo line has two pamphlets aimed at different audiences. What is each offering called, and how do the two relate?",
+      "key": "Halo for AI, Security & IT Leadership describes the Halo AI Control Plane (Endpoint, AI Gateway, Compute Cloud); Halo for AI Builders & Business Teams describes Halo Agent Studio. Agent Studio is an add-on to the control plane, using the same Halo identity, policy, runtime and cost controls. [both omnitrust pamphlets]",
+      "answer": "The two pamphlets describe two products, and one is an add-on to the other.\n\n- **Builders & Business Teams pamphlet:** the offering is **Halo Agent Studio**, which lets business teams and AI builders create, deploy and operate agents connected to enterprise apps and data. It is \"powered by OmniTrust's AI Lifecycle Management platform\" and runs every agent inside Halo's governance framework (omnitrust_halo_builders.txt, lines 8, 69, 71).\n- **Security, IT & Leadership pamphlet:** the offering is the **Halo AI Control Plane**, an \"independent AI control plane\" for discovering AI use, protecting data, enforcing policy and managing AI cost. Halo Agent Studio is listed as an \"Add-On\" that gives business teams an approved environment to build agents under the same Halo identity, data, policy, runtime and cost controls (omnitrust_halo_security_leadership.txt, lines 3, 9, 26, 48\u201349).\n\nThe relationship: Agent Studio is the builder-facing layer, and the Control Plane is the governance layer it runs on. The security pamphlet presents Agent Studio as an optional add-on to the control plane. The builders pamphlet does not use the word \"add-on,\" but it describes the same governance dependency.",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01PcPm58EDmuCq9C3pJAyMYy",
+      "judge_scores": {
+        "claude-sonnet-5-5": 88.0,
+        "claude-opus-5-5": 85.0
+      },
+      "score": 86.5
+    },
+    {
+      "arm": "haiku-raw",
+      "question_i": 5,
+      "repeat": 0,
+      "question": "Both OmniTrust pamphlets cite IDC 2026 projections for 2030. What figures do they give, and do the two pamphlets agree?",
+      "key": "Both cite 459 trillion (459T) agent actions per year globally by 2030 (IDC, 2026), so they agree on that figure; the Security & IT Leadership pamphlet additionally cites 2.5B active AI agents globally by 2030 (IDC, 2026). [both omnitrust pamphlets]",
+      "answer": "The two pamphlets agree on the one figure they share, but they don't give the same set of figures.\n\n- **Security & Leadership pamphlet** (`omnitrust_halo_security_leadership.txt`, lines 17 and 19) gives two IDC 2026 figures for 2030: **2.5B active AI agents globally** and **459T agent actions per year by 2030**. The 459T figure appears in an illustration label, not in body text.\n- **Builders & Business Teams pamphlet** (`omnitrust_halo_builders.txt`, line 10) gives only **459T agent actions per year globally by 2030 (IDC, 2026)**. It has no 2.5B agent figure. Its transcription is a vision-model reading of a photographed infographic, and the grep output for that line was truncated, so I read the line directly.\n\nSo the 459T figure matches across both pamphlets. The 2.5B active-agents figure comes only from the Security & Leadership pamphlet, and nothing in the Builders pamphlet contradicts it.",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01NFcMCFCZJZgyfdJqg9G2mZ",
+      "judge_scores": {
+        "claude-sonnet-5-5": 95.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 96.0
+    },
+    {
+      "arm": "haiku-raw",
+      "question_i": 6,
+      "repeat": 0,
+      "question": "What ratio of machine identities to human identities does OmniTrust cite today?",
+      "key": "109:1 machine identities per human. [omnitrust_halo_security_leadership]",
+      "answer": "OmniTrust cites **109:1 machine identities per human** today. The source is the OmniTrust \"Halo for AI, Security & IT Leadership\" pamphlet (`omnitrust_halo_security_leadership.txt`, line 15), under the label \"TODAY.\" The pamphlet's other figures are forward-looking (2028 and 2030), so this is the only current-state ratio. I searched all six pamphlets for machine/human identity terms and found no other OmniTrust figure for this ratio.",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01VfLQtVvhY3v3VfHihci6Th",
+      "judge_scores": {
+        "claude-sonnet-5-5": 96.0,
+        "claude-opus-5-5": 100.0
+      },
+      "score": 98.0
+    },
+    {
+      "arm": "haiku-raw",
+      "question_i": 7,
+      "repeat": 0,
+      "question": "What are the four capabilities in the Merge for Workforce stack?",
+      "key": "Universal context layer; MCP gateway; Model routing; Security suite. [merge_dev_platform]",
+      "answer": "Merge for Workforce's stack has four capabilities, shown in the architecture diagram of the Merge for Workforce / Ship AI pamphlet (merge_dev_platform.txt, page 1):\n\n1. **Universal context layer**: company knowledge that goes with every AI.\n2. **MCP gateway**: distributes approved connectors and skills.\n3. **Model routing**: routes, caps, and controls AI spend.\n4. **Security suite**: deploys AI without adding new risk.\n\nSource: /mnt/memory/raw-pamphlets-benchmark-20261108-2243/merge_dev_platform.txt (the pamphlet's own description, transcribed from a photo).",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01XGSdHioZYeSCa2WU6ynrGk",
+      "judge_scores": {
+        "claude-sonnet-5-5": 96.0,
+        "claude-opus-5-5": 100.0
+      },
+      "score": 98.0
+    },
+    {
+      "arm": "haiku-raw",
+      "question_i": 6,
+      "repeat": 1,
+      "question": "What ratio of machine identities to human identities does OmniTrust cite today?",
+      "key": "109:1 machine identities per human. [omnitrust_halo_security_leadership]",
+      "answer": "OmniTrust cites **109:1 machine identities per human** as its \"TODAY\" figure. This comes from the OmniTrust 'Halo for AI, Security & IT Leadership' pamphlet (`omnitrust_halo_security_leadership.txt`, line 15).\n\nThe same pamphlet gives forward-looking figures that are not the current ratio: 150,000+ AI agents per Fortune 500 enterprise by 2028 (Gartner, 2026) and 2.5B active AI agents globally by 2030 (IDC, 2026), both at lines 16\u201317. The pamphlet does not give a source for the 109:1 figure itself.",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01P7kA2Sd9fygmnpnAbXBzqb",
+      "judge_scores": {
+        "claude-sonnet-5-5": 96.0,
+        "claude-opus-5-5": 98.0
+      },
+      "score": 97.0
+    },
+    {
+      "arm": "haiku-raw",
+      "question_i": 5,
+      "repeat": 1,
+      "question": "Both OmniTrust pamphlets cite IDC 2026 projections for 2030. What figures do they give, and do the two pamphlets agree?",
+      "key": "Both cite 459 trillion (459T) agent actions per year globally by 2030 (IDC, 2026), so they agree on that figure; the Security & IT Leadership pamphlet additionally cites 2.5B active AI agents globally by 2030 (IDC, 2026). [both omnitrust pamphlets]",
+      "answer": "**Short answer:** Yes, they agree on the one figure they share, but they don't cite the same metric.\n\n- **Security & Leadership pamphlet** (`omnitrust_halo_security_leadership.txt`, line 17): \"2030: 2.5B active AI agents globally (IDC, 2026).\" Its illustration caption (line 19) also says \"459T agent actions per year by 2030 (IDC, 2026).\"\n- **Builders pamphlet** (`omnitrust_halo_builders.txt`, line 10, an infographic caption): \"2030: 459T agent actions per year globally (IDC, 2026).\"\n\nSo both give 459T agent actions per year by 2030, attributed to IDC 2026. Only the security pamphlet gives the 2.5B active-agents figure, and the builders pamphlet gives no agent-count figure. The two are not contradictory, but the 2.5B count and the 459T action volume measure different things.\n\nThese are the pamphlets' own citations. The IDC 2026 report itself is not in the data room, so I could not verify either figure against the source.",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01WH9RCMV6LghhQ1jEbdfmfa",
+      "judge_scores": {
+        "claude-sonnet-5-5": 93.0,
+        "claude-opus-5-5": 95.0
+      },
+      "score": 94.0
+    },
+    {
+      "arm": "haiku-raw",
+      "question_i": 7,
+      "repeat": 1,
+      "question": "What are the four capabilities in the Merge for Workforce stack?",
+      "key": "Universal context layer; MCP gateway; Model routing; Security suite. [merge_dev_platform]",
+      "answer": "The four capabilities in the Merge for Workforce stack are:\n\n1. **Universal context layer**: company knowledge that goes with every AI.\n2. **MCP gateway**: distributes approved connectors and skills.\n3. **Model routing**: routes, caps, and controls AI spend.\n4. **Security suite**: deploys AI without adding new risk.\n\nSource: `merge_dev_platform.txt` (Merge \"Merge for Workforce / Ship AI\" pamphlet, page 1, architecture diagram description, line 12).",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01Xm6ELQTHe5ucg8gYJpEWv9",
+      "judge_scores": {
+        "claude-sonnet-5-5": 96.0,
+        "claude-opus-5-5": 98.0
+      },
+      "score": 97.0
+    },
+    {
+      "arm": "haiku-raw",
+      "question_i": 8,
+      "repeat": 0,
+      "question": "What does PromptQL call its shared team knowledge feature, and how are updates to it controlled?",
+      "key": "The operational wiki (shared wiki of reviewed knowledge); updates are proposed from the work and people review/approve proposed wiki updates before they become shared context. [promptql_multiplayer_ai]",
+      "answer": "PromptQL calls it the **operational wiki**, which its architecture diagram also labels the **\"SHARED WIKI\"** (\"Reviewed knowledge for your business\") (promptql_multiplayer_ai.txt, p. 2, Technical innovations and diagram).\n\nUpdates are controlled by **human review**. Context updates are \"Proposed from work, reviewed by people\" (same file, diagram). The pamphlet says teams should \"Review proposed wiki updates to control what becomes shared knowledge\" (p. 2, \"Teachable in the flow\"), and \"Review and refine them as work changes\" (p. 2, \"Operational wiki\").\n\nThe pamphlet does not say who may review or approve updates, or whether any role-based edit permissions apply to the wiki itself. Its general \"Permissions and governance\" bullet covers data access and scopes, not wiki edits (p. 2). A vendor document or admin guide describing wiki roles would be needed to answer that.",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_012cqac5HKVhvVAZoZzv9DxV",
+      "judge_scores": {
+        "claude-sonnet-5-5": 96.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 96.5
+    },
+    {
+      "arm": "haiku-raw",
+      "question_i": 8,
+      "repeat": 1,
+      "question": "What does PromptQL call its shared team knowledge feature, and how are updates to it controlled?",
+      "key": "The operational wiki (shared wiki of reviewed knowledge); updates are proposed from the work and people review/approve proposed wiki updates before they become shared context. [promptql_multiplayer_ai]",
+      "answer": "PromptQL calls it the **\"operational wiki\"**, described as shared knowledge for the business that captures definitions, decisions and exceptions (promptql_multiplayer_ai.txt, line 45).\n\nUpdates are controlled by **review**: proposed wiki updates are reviewed before they become shared knowledge. The document says teammates review proposed updates, and that reviewing them \"controls what becomes shared knowledge\" (promptql_multiplayer_ai.txt, lines 13, 33 and 48). The document does not say who has reviewer or approver rights, what the review workflow steps are, or whether edits can be rolled back. Those details would need a PromptQL admin or permissions guide, which is not in the data room.",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_01LH1w1Wgh3RDR9vx5MiMLQc",
+      "judge_scores": {
+        "claude-sonnet-5-5": 95.0,
+        "claude-opus-5-5": 95.0
+      },
+      "score": 95.0
+    },
+    {
+      "arm": "sonnet-wiki",
+      "question_i": 0,
+      "repeat": 0,
+      "question": "What security certification does Barndoor's AI Gateway hold, and how many AI models and MCP servers does it support?",
+      "key": "SOC 2 Type II certified; 100+ MCP servers (plus custom) and 100+ AI models (plus self-hosted). [barndoor_ai_gateway]",
+      "answer": "Barndoor's AI Gateway claims to be SOC 2 Type II certified. The claim is self-reported, and no audit report is provided. [source: barndoor-ai-gateway | 2026-11]\n\nIt is stated to support:\n- **AI models:** 100+, plus self-hosted models. [source: barndoor-ai-gateway | 2026-11]\n- **MCP servers:** 100+, plus custom servers. [source: barndoor-ai-gateway | 2026-11]\n\nBoth counts are vendor marketing figures and have not been audited. Verifying the SOC 2 claim would need the actual SOC 2 Type II report.",
+      "list_usd": 0.03,
+      "outcome": "end_turn",
+      "session_id": "sesn_01AmY3sMW6zcD1hMSqyg8Zuh",
+      "judge_scores": {
+        "claude-sonnet-5-5": 90.0,
+        "claude-opus-5-5": 95.0
+      },
+      "score": 92.5
+    },
+    {
+      "arm": "sonnet-wiki",
+      "question_i": 0,
+      "repeat": 1,
+      "question": "What security certification does Barndoor's AI Gateway hold, and how many AI models and MCP servers does it support?",
+      "key": "SOC 2 Type II certified; 100+ MCP servers (plus custom) and 100+ AI models (plus self-hosted). [barndoor_ai_gateway]",
+      "answer": "Barndoor's AI Gateway claims **SOC 2 Type II** certification. This is self-reported, and no audit report is provided in the wiki.\n\nIt says it supports **100+ AI models**, plus self-hosted models. It also says it supports **100+ MCP servers**, plus custom ones. Both counts are vendor marketing figures and are not audited.\n\n[source: barndoor-ai-gateway (metrics/barndoor-ai-gateway.md) | 2026-11]\n\nTo verify the SOC 2 claim, you would need the actual SOC 2 Type II report.",
+      "list_usd": 0.02,
+      "outcome": "end_turn",
+      "session_id": "sesn_01PjZALJExMv4cRZnKQnyaET",
+      "judge_scores": {
+        "claude-sonnet-5-5": 93.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 95.0
+    },
+    {
+      "arm": "sonnet-wiki",
+      "question_i": 1,
+      "repeat": 0,
+      "question": "Who is quoted endorsing Barndoor, and what is their role and company?",
+      "key": "Linda Xu, Director of Data Analytics & AI at MealSuite. [barndoor_ai_gateway]",
+      "answer": "Linda Xu is the person quoted endorsing Barndoor. She is Director of Data Analytics & AI at MealSuite [source: barndoor-ai-gateway | as-of: 2026-11].\n\nHer quote is \"Barndoor allows us to feel we can sleep better\" [source: barndoor-ai-gateway | as-of: 2026-11].\n\nThe quote appears only in Barndoor's own marketing pamphlet. Neither the quote nor her role is independently verified. No other document confirms that MealSuite is a Barndoor customer [source: barndoor-ai-gateway | as-of: 2026-11].",
+      "list_usd": 0.02,
+      "outcome": "end_turn",
+      "session_id": "sesn_01HBxuUEvFo499WNSv8vZNXk",
+      "judge_scores": {
+        "claude-sonnet-5-5": 92.0,
+        "claude-opus-5-5": 93.0
+      },
+      "score": 92.5
+    },
+    {
+      "arm": "haiku-raw",
+      "question_i": 9,
+      "repeat": 0,
+      "question": "Which customer or 'trusted by' company names appear in more than one of the six pamphlets, and in which pamphlets?",
+      "key": "Ramp appears for C1.ai and for Merge (Merge for Products 'trusted by'); Instacart appears for C1.ai and for PromptQL. Credit any answer naming Ramp and Instacart with roughly those pamphlet pairs; naming only one of the two is half right. Model providers (e.g. Anthropic, OpenAI as a logo of models) do not count, though OpenAI is also a Merge customer. [cross-pamphlet]",
+      "answer": "Two company names appear in more than one pamphlet as customers:\n\n- **Ramp**: *C1 Identity Platform* (`c1ai_identity_platform.txt`, logo bar line 9 and prose line 65) and *Merge for Products* (`merge_dev_platform.txt`, \"Trusted by\" line 87).\n- **Instacart**: *C1 Identity Platform* (`c1ai_identity_platform.txt`, logo bar line 9) and *PromptQL Multiplayer AI* (`promptql_multiplayer_ai.txt`, customer logos line 62).\n\nOpenAI, Dropbox and Factory appear twice, but only within *Merge for Products* (line 47 and line 87), so they do not count as cross-pamphlet. OpenAI also appears in *Merge for Workforce* and the OmniTrust pamphlets only as a model or LLM vendor, not as a customer.",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_012cqac5JgbgCmKsLoNinzcx",
+      "judge_scores": {
+        "claude-sonnet-5-5": 95.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 96.0
+    },
+    {
+      "arm": "sonnet-wiki",
+      "question_i": 1,
+      "repeat": 1,
+      "question": "Who is quoted endorsing Barndoor, and what is their role and company?",
+      "key": "Linda Xu, Director of Data Analytics & AI at MealSuite. [barndoor_ai_gateway]",
+      "answer": "Linda Xu, Director of Data Analytics & AI at MealSuite, is the person quoted endorsing Barndoor. The quote is \"Barndoor allows us to feel we can sleep better\" [barndoor-ai-gateway | 2026-11].\n\nThis comes from vendor marketing only. Neither the quote, her role, nor MealSuite's customer relationship with Barndoor is independently verified in any other document [barndoor-ai-gateway | 2026-11].",
+      "list_usd": 0.02,
+      "outcome": "end_turn",
+      "session_id": "sesn_01Y1R2rkMK68wpr9NsrbAcLz",
+      "judge_scores": {
+        "claude-sonnet-5-5": 92.0,
+        "claude-opus-5-5": 92.0
+      },
+      "score": 92.0
+    },
+    {
+      "arm": "sonnet-wiki",
+      "question_i": 2,
+      "repeat": 1,
+      "question": "What share of organizations does C1.ai say experienced an identity-related breach in the past year, and what source does it cite for that statistic?",
+      "key": "80%; cited to C1.ai's 2026 Future of Identity Report, a survey of 505 IT and security leaders at U.S. enterprises (the pamphlet notes the footnote is partially illegible and 505 is a best reading). [c1ai_identity_platform]",
+      "answer": "C1.ai says **80% of organizations** experienced at least one identity-related breach in the past year. [c1ai-identity-platform | 2026-11]\n\nThe footnote cites C1.ai's own **2026 Future of Identity Report**, so the statistic is self-sourced and not from an independent third party. [metrics/c1ai-identity-platform | 2026]\n\nThe survey base of 505 U.S. IT and security leaders is only a best reading of a partly illegible footnote scan. Treat that number as uncertain. [entities/c1ai | 2026-11]",
+      "list_usd": 0.01,
+      "outcome": "end_turn",
+      "session_id": "sesn_011WNyFYBGyB34xVPQ8b8Gz8",
+      "judge_scores": {
+        "claude-sonnet-5-5": 96.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 96.5
+    },
+    {
+      "arm": "haiku-raw",
+      "question_i": 9,
+      "repeat": 1,
+      "question": "Which customer or 'trusted by' company names appear in more than one of the six pamphlets, and in which pamphlets?",
+      "key": "Ramp appears for C1.ai and for Merge (Merge for Products 'trusted by'); Instacart appears for C1.ai and for PromptQL. Credit any answer naming Ramp and Instacart with roughly those pamphlet pairs; naming only one of the two is half right. Model providers (e.g. Anthropic, OpenAI as a logo of models) do not count, though OpenAI is also a Merge customer. [cross-pamphlet]",
+      "answer": "**Only one company is named as a customer in more than one pamphlet: Ramp**, which appears in two files:\n\n- **Merge** (`merge_dev_platform.txt`, line 87): \"Trusted by: OpenAI, Perplexity, Dropbox, Ramp, Factory, Zoom, AON\"\n- **C1.ai** (`c1ai_identity_platform.txt`, line 65): \"Companies such as Ramp, Zscaler, Qualtrics, and DoorDash trust C1.ai\"\n\nWithin the Merge file, OpenAI, Dropbox and Factory also repeat across its two \"Trusted by\" lines (lines 47 and 87), but that is one pamphlet, so it does not count as a cross-pamphlet overlap.\n\nAll other customer names appear in only one pamphlet:\n- **PromptQL** (`promptql_multiplayer_ai.txt`, line 62, \"Customer logos\"): Cisco, Morgan Stanley, Instacart, Swiggy, Bank of America, StanleyBlack&Decker, Excedr, Stitch Fix, Charger Logistics\n- **Barndoor** (`barndoor_ai_gateway.txt`, line 30): formlabs, MEALSUITE, SYNDIO, caudex, IntelePeer, Breakthrough T1D, EOS Fitness\n- **Merge** only: American Express, Netflix, Rula (line 47); Perplexity, Zoom, AON (line 87)\n- **C1.ai** only: Zscaler, Qualtrics, DoorDash\n\nThe two OmniTrust pamphlets name no customers. Their logo references are technology partners and model providers (e.g. NVIDIA OpenShell, CrewAI, n8n in `omnitrust_halo_security_leadership.txt`, line 87), which I excluded. Some OpenAI, Anthropic and Gemini references in the Merge file are also model vendors shown as logos, not customers.",
+      "list_usd": 0.0,
+      "outcome": "end_turn",
+      "session_id": "sesn_019uQF3A7mZ8TtcP1pujWEtH",
+      "judge_scores": {
+        "claude-sonnet-5-5": 45.0,
+        "claude-opus-5-5": 45.0
+      },
+      "score": 45.0
+    },
+    {
+      "arm": "sonnet-wiki",
+      "question_i": 2,
+      "repeat": 0,
+      "question": "What share of organizations does C1.ai say experienced an identity-related breach in the past year, and what source does it cite for that statistic?",
+      "key": "80%; cited to C1.ai's 2026 Future of Identity Report, a survey of 505 IT and security leaders at U.S. enterprises (the pamphlet notes the footnote is partially illegible and 505 is a best reading). [c1ai_identity_platform]",
+      "answer": "C1.ai says **80% of organizations** experienced at least one identity-related breach in the past year. [c1ai-identity-platform | 2026-11]\n\nThe footnote cites C1.ai's own **2026 Future of Identity Report**, so the source is a self-published survey, not an independent one. The footnote is partly illegible in the scan. The survey base of 505 U.S. IT and security leaders is therefore only a best reading. [c1ai-identity-platform | 2026-11]",
+      "list_usd": 0.01,
+      "outcome": "end_turn",
+      "session_id": "sesn_01HZT7FkhV9Y6sNBMtcRkSNC",
+      "judge_scores": {
+        "claude-sonnet-5-5": 95.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 96.0
+    },
+    {
+      "arm": "sonnet-wiki",
+      "question_i": 3,
+      "repeat": 0,
+      "question": "How many connectors and MCP servers does C1.ai claim, and what is its open-source connector framework called?",
+      "key": "400+ C1 Connectors built on Baton (its open-source connector framework) and 3,000+ C1 MCP Servers; C1 Bridge reaches on-prem systems. [c1ai_identity_platform]",
+      "answer": "C1.ai claims 400+ connectors and 3,000+ MCP servers. Both are vendor-stated marketing figures, not independently verified [source: c1ai-identity-platform | as-of: 2026-11].\n\nIts open-source connector framework is called **Baton**. The connectors are built on it and can be hosted or self-run. C1 Bridge reaches on-prem systems [source: c1ai-identity-platform | as-of: 2026-11].",
+      "list_usd": 0.02,
+      "outcome": "end_turn",
+      "session_id": "sesn_015TZod1MUydd4a7npudwYPE",
+      "judge_scores": {
+        "claude-sonnet-5-5": 96.0,
+        "claude-opus-5-5": 96.0
+      },
+      "score": 96.0
+    },
+    {
+      "arm": "sonnet-wiki",
+      "question_i": 3,
+      "repeat": 1,
+      "question": "How many connectors and MCP servers does C1.ai claim, and what is its open-source connector framework called?",
+      "key": "400+ C1 Connectors built on Baton (its open-source connector framework) and 3,000+ C1 MCP Servers; C1 Bridge reaches on-prem systems. [c1ai_identity_platform]",
+      "answer": "C1.ai claims 400+ connectors and 3,000+ MCP servers. Both are vendor-stated marketing figures. [c1ai-identity-platform | 2026-11]\n\nIts open-source connector framework is called Baton. The 400+ connectors are built on it. [c1ai-identity-platform | 2026-11]",
+      "list_usd": 0.02,
+      "outcome": "end_turn",
+      "session_id": "sesn_014bRznozJF18r7HzdQrLt9s",
+      "judge_scores": {
+        "claude-sonnet-5-5": 93.0,
+        "claude-opus-5-5": 95.0
+      },
+      "score": 94.0
+    },
+    {
+      "arm": "sonnet-wiki",
+      "question_i": 4,
+      "repeat": 1,
+      "question": "OmniTrust's Halo line has two pamphlets aimed at different audiences. What is each offering called, and how do the two relate?",
+      "key": "Halo for AI, Security & IT Leadership describes the Halo AI Control Plane (Endpoint, AI Gateway, Compute Cloud); Halo for AI Builders & Business Teams describes Halo Agent Studio. Agent Studio is an add-on to the control plane, using the same Halo identity, policy, runtime and cost controls. [both omnitrust pamphlets]",
+      "answer": "The wiki names two Halo offerings, one per pamphlet. The relationship between them is only partly stated.\n\n- **Halo AI Control Plane** (also \"Halo for AI, Security & IT Leadership\") is in the security and IT leadership pamphlet. It has three parts:\n  - Discover: endpoint and browser discovery of sanctioned and shadow AI.\n  - Control: Halo Endpoint policies.\n  - Optimize: Halo AI Gateway runtime governance and model routing.\n\n  [omnitrust-halo-security-leadership | 2026-11]\n- **Halo Agent Studio** is in the builders pamphlet. It is an add-on for business teams and AI builders to build and deploy agents. [omnitrust-halo-builders | 2026-11]\n\n**How they relate:**\n- Halo Agent Studio is described as powered by OmniTrust's AI Lifecycle Management platform. The ILM/PKI Agentic Identity Fabric supplies the agents' cryptographic identity. [omnitrust-halo-builders | 2026-11]\n- The Agent Studio stack has a \"HALO Control Plane\" layer covering Governance, Identity and Runtime Protection. [omnitrust-halo-builders | 2026-11]\n- The wiki says it is not stated whether that layer is the same component as the Halo AI Control Plane in the security pamphlet. [omnitrust-halo-security-leadership, omnitrust-halo-builders | 2026-11]",
+      "list_usd": 0.03,
+      "outcome": "end_turn",
+      "session_id": "sesn_01S5dnJYeDJnjJJPkZSgcsU4",
+      "judge_scores": {
+        "claude-sonnet-5-5": 45.0
+      },
+      "score": 45.0
+    },
+    {
+      "arm": "sonnet-wiki",
+      "question_i": 5,
+      "repeat": 0,
+      "question": "Both OmniTrust pamphlets cite IDC 2026 projections for 2030. What figures do they give, and do the two pamphlets agree?",
+      "key": "Both cite 459 trillion (459T) agent actions per year globally by 2030 (IDC, 2026), so they agree on that figure; the Security & IT Leadership pamphlet additionally cites 2.5B active AI agents globally by 2030 (IDC, 2026). [both omnitrust pamphlets]",
+      "answer": "The two pamphlets don't conflict, but they don't cite the same set of figures either. The wiki shows no CONFLICT line on this point.\n\n- **Both pamphlets:** 459T (trillion) agent actions per year by 2030, attributed to IDC 2026 as cited by the vendor. [metrics/omnitrust-halo-builders; metrics/omnitrust-halo-security-leadership | as-of 2026-11]\n- **Security and IT Leadership pamphlet only:** 2.5B active AI agents globally by 2030, also attributed to IDC 2026. [metrics/omnitrust-halo-security-leadership | 2026-11]\n- **Builders pamphlet:** the wiki lists no 2.5B figure for it. I read that as the pamphlet not stating it. The wiki doesn't say so outright, and I didn't check the pamphlet text itself.\n\nThe IDC figures are forecasts as the vendor cites them. The wiki says no underlying IDC report is in the data room, so they can't be traced. The wiki recommends requesting the IDC 2026 report before using them. [open_questions/omnitrust-halo-builders; escalations]\n\nThe wiki also says not to combine these figures. The 2.5B agent count and the 459T actions per year measure different things. [entities/omnitrust]",
+      "list_usd": 0.02,
+      "outcome": "end_turn",
+      "session_id": "sesn_015DF16fZp1treBYB6pp8Sv7",
+      "judge_scores": {
+        "claude-sonnet-5-5": 93.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 95.0
+    },
+    {
+      "arm": "sonnet-wiki",
+      "question_i": 5,
+      "repeat": 1,
+      "question": "Both OmniTrust pamphlets cite IDC 2026 projections for 2030. What figures do they give, and do the two pamphlets agree?",
+      "key": "Both cite 459 trillion (459T) agent actions per year globally by 2030 (IDC, 2026), so they agree on that figure; the Security & IT Leadership pamphlet additionally cites 2.5B active AI agents globally by 2030 (IDC, 2026). [both omnitrust pamphlets]",
+      "answer": "The two pamphlets give IDC 2026 figures for 2030 that don't conflict, but they don't match in coverage. No line in the wiki is marked CONFLICT.\n\n- **Halo for AI Builders:** 459T agent actions per year globally by 2030, \"IDC 2026 as cited by vendor\" [metrics/omnitrust-halo-builders | 2026-11]. The wiki's metrics for this pamphlet list no 2.5B active-agents figure.\n- **Halo for AI, Security and IT Leadership:** 2.5B active AI agents globally by 2030, and also 459T agent actions per year by 2030. Both are \"IDC 2026 as cited by vendor\" [metrics/omnitrust-halo-security-leadership | 2026-11].\n\nThe 459T figure is the same in both pamphlets. The 2.5B figure appears only in the Security and Leadership pamphlet. The wiki's OmniTrust entity node pools both documents and lists 2.5B among the IDC-cited figures [entities/omnitrust | 2026-11].\n\nThe wiki treats the agent count and the action count as different measures that shouldn't be combined. The underlying IDC 2026 report is not in the data room, so the figures can't be verified. The escalations list recommends requesting the IDC 2026 report from the vendor [escalations | 2026-11].",
+      "list_usd": 0.02,
+      "outcome": "end_turn",
+      "session_id": "sesn_01EiitEpn8FFQ9SLfaijASK3",
+      "judge_scores": {
+        "claude-sonnet-5-5": 95.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 96.0
+    },
+    {
+      "arm": "sonnet-wiki",
+      "question_i": 6,
+      "repeat": 1,
+      "question": "What ratio of machine identities to human identities does OmniTrust cite today?",
+      "key": "109:1 machine identities per human. [omnitrust_halo_security_leadership]",
+      "answer": "OmniTrust cites **109:1** machine identities per human identity \"today\". The wiki marks this as a vendor marketing figure with no source named. [omnitrust-halo-security-leadership | as-of 2026-11]. I found no conflicting figure.",
+      "list_usd": 0.01,
+      "outcome": "end_turn",
+      "session_id": "sesn_01QMNAe9vEetBTXYKjQjfKdL",
+      "judge_scores": {
+        "claude-sonnet-5-5": 96.0,
+        "claude-opus-5-5": 98.0
+      },
+      "score": 97.0
+    },
+    {
+      "arm": "sonnet-wiki",
+      "question_i": 4,
+      "repeat": 0,
+      "question": "OmniTrust's Halo line has two pamphlets aimed at different audiences. What is each offering called, and how do the two relate?",
+      "key": "Halo for AI, Security & IT Leadership describes the Halo AI Control Plane (Endpoint, AI Gateway, Compute Cloud); Halo for AI Builders & Business Teams describes Halo Agent Studio. Agent Studio is an add-on to the control plane, using the same Halo identity, policy, runtime and cost controls. [both omnitrust pamphlets]",
+      "answer": "**The two offerings**\n- **Security and IT leadership pamphlet:** the offering is **Halo AI Control Plane**, also written \"Halo for AI, Security & IT Leadership\". It has three parts:\n  - Discover covers endpoint and browser discovery of sanctioned and Shadow AI.\n  - Control uses Halo Endpoint policies.\n  - Optimize uses Halo AI Gateway for runtime governance and model routing.\n  [omnitrust-halo-security-leadership | 2026-11]\n- **Builders pamphlet:** the offering is **Halo Agent Studio**. It is an add-on for business teams and AI builders to build and deploy agents. [omnitrust-halo-builders | 2026-11]\n\n**How they relate**\n- The security pamphlet lists Halo Agent Studio as an add-on to OmniTrust's Halo offering. [omnitrust-halo-security-leadership | 2026-11] So Agent Studio is the builder-facing add-on, and the Control Plane is the security and IT governance layer.\n- Both pamphlets say the agents' cryptographic identity comes from OmniTrust's ILM/PKI Agentic Identity Fabric. The builders pamphlet also says Agent Studio is powered by OmniTrust's AI Lifecycle Management platform. [omnitrust-halo-builders | 2026-11]\n- The builders pamphlet's Agent Studio stack includes a \"HALO Control Plane\" layer covering Governance, Identity and Runtime Protection. The wiki says it is not stated whether this is the same component as the security pamphlet's Halo AI Control Plane. [omnitrust | 2026-11]",
+      "list_usd": 0.03,
+      "outcome": "end_turn",
+      "session_id": "sesn_01QbgyAVhLPJboSptKwBnXP9",
+      "judge_scores": {
+        "claude-sonnet-5-5": 62.0
+      },
+      "score": 62.0
+    },
+    {
+      "arm": "sonnet-wiki",
+      "question_i": 6,
+      "repeat": 0,
+      "question": "What ratio of machine identities to human identities does OmniTrust cite today?",
+      "key": "109:1 machine identities per human. [omnitrust_halo_security_leadership]",
+      "answer": "OmniTrust cites **109:1**, meaning 109 machine identities for every human identity. The figure is labelled \"TODAY\" in its Halo for AI, Security and IT Leadership pamphlet [omnitrust-halo-security-leadership | as-of 2026-11].\n\nThe pamphlet names no source for it, so the wiki treats it as an unsourced vendor marketing figure. An earlier version of the wiki attributed it to Gartner or IDC. That was corrected: the pamphlets don't attribute it to either. The wiki recommends asking OmniTrust where the figure comes from before anyone relies on it [escalations, item 2].",
+      "list_usd": 0.03,
+      "outcome": "end_turn",
+      "session_id": "sesn_01BkqFxiuNBJk2Kdi94K6dke",
+      "judge_scores": {
+        "claude-sonnet-5-5": 96.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 96.5
+    },
+    {
+      "arm": "sonnet-wiki",
+      "question_i": 7,
+      "repeat": 0,
+      "question": "What are the four capabilities in the Merge for Workforce stack?",
+      "key": "Universal context layer; MCP gateway; Model routing; Security suite. [merge_dev_platform]",
+      "answer": "The Merge for Workforce stack has four named capabilities: a universal context layer, an MCP gateway, model routing, and a security suite. [merge-dev-platform | 2026-11]\n\n- **Universal context layer:** the wiki gives no further description of it.\n- **MCP gateway:** distributes approved connectors and skills.\n- **Model routing:** routes, caps and controls AI spend.\n- **Security suite:** the wiki gives no further description of it.\n\nThese come from vendor marketing material.\n\nSource: entities/merge.md, \"Products\" section.",
+      "list_usd": 0.02,
+      "outcome": "end_turn",
+      "session_id": "sesn_01WedcysRiFMQXpGYgVo529E",
+      "judge_scores": {
+        "claude-sonnet-5-5": 93.0,
+        "claude-opus-5-5": 95.0
+      },
+      "score": 94.0
+    },
+    {
+      "arm": "sonnet-wiki",
+      "question_i": 7,
+      "repeat": 1,
+      "question": "What are the four capabilities in the Merge for Workforce stack?",
+      "key": "Universal context layer; MCP gateway; Model routing; Security suite. [merge_dev_platform]",
+      "answer": "Merge for Workforce has four named capabilities: [merge-dev-platform | 2026-11]\n\n1. **Universal context layer**\n2. **MCP gateway**, which distributes approved connectors and skills.\n3. **Model routing**, which routes, caps and controls AI spend.\n4. **Security suite**\n\nThese come from vendor marketing material, not independent verification.",
+      "list_usd": 0.02,
+      "outcome": "end_turn",
+      "session_id": "sesn_01NkFxEw5uCMWpqZHpjPnsL2",
+      "judge_scores": {
+        "claude-sonnet-5-5": 95.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 96.0
+    },
+    {
+      "arm": "sonnet-wiki",
+      "question_i": 8,
+      "repeat": 0,
+      "question": "What does PromptQL call its shared team knowledge feature, and how are updates to it controlled?",
+      "key": "The operational wiki (shared wiki of reviewed knowledge); updates are proposed from the work and people review/approve proposed wiki updates before they become shared context. [promptql_multiplayer_ai]",
+      "answer": "PromptQL calls it the **shared operational wiki**. [promptql-multiplayer-ai | 2026-11]\n\nUpdates are gated by human review. The platform proposes context updates from the work that bots and people do. People review those proposals before they become shared knowledge in the wiki. [promptql-multiplayer-ai | 2026-11]\n\nThe wiki doesn't say who counts as a reviewer, what approval workflow is used, or how permissions apply to wiki edits. It only says that bots use the permissions of the person asking. The vendor pamphlet would be needed to answer those points. [promptql-multiplayer-ai | 2026-11]",
+      "list_usd": 0.02,
+      "outcome": "end_turn",
+      "session_id": "sesn_012jzysFPbhwTdurioVLmJpj",
+      "judge_scores": {
+        "claude-sonnet-5-5": 93.0,
+        "claude-opus-5-5": 92.0
+      },
+      "score": 92.5
+    },
+    {
+      "arm": "sonnet-wiki",
+      "question_i": 8,
+      "repeat": 1,
+      "question": "What does PromptQL call its shared team knowledge feature, and how are updates to it controlled?",
+      "key": "The operational wiki (shared wiki of reviewed knowledge); updates are proposed from the work and people review/approve proposed wiki updates before they become shared context. [promptql_multiplayer_ai]",
+      "answer": "PromptQL calls it the **shared operational wiki** [promptql-multiplayer-ai | 2026-11].\n\nUpdates are gated by human review. The wiki says context updates are \"proposed from work and reviewed by people before entering the shared wiki,\" so bots can propose changes but people approve them before they become shared knowledge [promptql-multiplayer-ai | 2026-11].\n\nThe wiki entry doesn't describe the approval workflow in more detail. It doesn't say who the reviewers are or what roles can approve updates.",
+      "list_usd": 0.02,
+      "outcome": "end_turn",
+      "session_id": "sesn_01E6usvyGgo1WAAnLpPPU2om",
+      "judge_scores": {
+        "claude-sonnet-5-5": 92.0,
+        "claude-opus-5-5": 95.0
+      },
+      "score": 93.5
+    },
+    {
+      "arm": "sonnet-wiki",
+      "question_i": 9,
+      "repeat": 1,
+      "question": "Which customer or 'trusted by' company names appear in more than one of the six pamphlets, and in which pamphlets?",
+      "key": "Ramp appears for C1.ai and for Merge (Merge for Products 'trusted by'); Instacart appears for C1.ai and for PromptQL. Credit any answer naming Ramp and Instacart with roughly those pamphlet pairs; naming only one of the two is half right. Model providers (e.g. Anthropic, OpenAI as a logo of models) do not count, though OpenAI is also a Merge customer. [cross-pamphlet]",
+      "answer": "Two company names appear in more than one pamphlet. Both are vendor-marketing logos, and the wiki gives no contract terms for either.\n\n- **Ramp** appears in the C1.ai pamphlet (`c1ai-identity-platform`) and the Merge pamphlet (`merge-dev-platform`). C1.ai shows it as a customer logo and names it in its About text. Merge lists it under \"Trusted by\" for Merge for Products. [ramp entity: c1ai-identity-platform | 2026-11; merge-dev-platform | 2026-11]\n- **Instacart** appears in the C1.ai pamphlet (`c1ai-identity-platform`) and the PromptQL pamphlet (`promptql-multiplayer-ai`). Both show it as a customer logo. [instacart entity: c1ai-identity-platform | 2026-11; promptql-multiplayer-ai | 2026-11]\n\nThe other customer names in the wiki each appear in only one pamphlet. These are Zscaler and Qualtrics (C1.ai), OpenAI and Dropbox (Merge), Cisco, Morgan Stanley and Bank of America (PromptQL), and Formlabs and MealSuite (Barndoor). The wiki's index lists no customers for the two OmniTrust pamphlets. I checked only the Ramp and Instacart entity pages. The single-pamphlet statements for the other names come from the index's entity descriptions, not their own pages.",
+      "list_usd": 0.01,
+      "outcome": "end_turn",
+      "session_id": "sesn_019HbEjJiecDQtbKHdaP1M5U",
+      "judge_scores": {
+        "claude-sonnet-5-5": 95.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 96.0
+    },
+    {
+      "arm": "sonnet-raw",
+      "question_i": 0,
+      "repeat": 0,
+      "question": "What security certification does Barndoor's AI Gateway hold, and how many AI models and MCP servers does it support?",
+      "key": "SOC 2 Type II certified; 100+ MCP servers (plus custom) and 100+ AI models (plus self-hosted). [barndoor_ai_gateway]",
+      "answer": "Barndoor's AI Gateway is **SOC 2 Type II certified**. It supports **100+ AI models**, plus self-hosted models. It also supports **100+ MCP servers**, plus custom ones. The pamphlet gives these as \"100+\", not as exact counts.\n\nSource: barndoor_ai_gateway.txt, the spec table (lines 17\u201319) and the security statement (line 58).",
+      "list_usd": 0.02,
+      "outcome": "end_turn",
+      "session_id": "sesn_014M7CGUGxyfm4ccXfKmbaSC",
+      "judge_scores": {
+        "claude-sonnet-5-5": 97.0,
+        "claude-opus-5-5": 100.0
+      },
+      "score": 98.5
+    },
+    {
+      "arm": "sonnet-raw",
+      "question_i": 0,
+      "repeat": 1,
+      "question": "What security certification does Barndoor's AI Gateway hold, and how many AI models and MCP servers does it support?",
+      "key": "SOC 2 Type II certified; 100+ MCP servers (plus custom) and 100+ AI models (plus self-hosted). [barndoor_ai_gateway]",
+      "answer": "Barndoor's AI Gateway is SOC 2 Type II certified. It supports 100+ AI models, plus self-hosted ones. It also supports 100+ MCP servers, plus custom ones. (Source: barndoor_ai_gateway.txt, spec table and security statement.)",
+      "list_usd": 0.01,
+      "outcome": "end_turn",
+      "session_id": "sesn_01BszfDtuGudbExkwsXykMwN",
+      "judge_scores": {
+        "claude-sonnet-5-5": 98.0,
+        "claude-opus-5-5": 100.0
+      },
+      "score": 99.0
+    },
+    {
+      "arm": "sonnet-wiki",
+      "question_i": 9,
+      "repeat": 0,
+      "question": "Which customer or 'trusted by' company names appear in more than one of the six pamphlets, and in which pamphlets?",
+      "key": "Ramp appears for C1.ai and for Merge (Merge for Products 'trusted by'); Instacart appears for C1.ai and for PromptQL. Credit any answer naming Ramp and Instacart with roughly those pamphlet pairs; naming only one of the two is half right. Model providers (e.g. Anthropic, OpenAI as a logo of models) do not count, though OpenAI is also a Merge customer. [cross-pamphlet]",
+      "answer": "Two customer names appear in more than one pamphlet:\n\n- **Ramp** is in the C1.ai pamphlet (`c1ai-identity-platform`) and the Merge pamphlet (`merge-dev-platform`). C1.ai shows it as a customer logo, and its About text names Ramp as a company that trusts C1.ai [c1ai-identity-platform | 2026-11]. Merge lists it under \"Trusted by\" for Merge for Products [merge-dev-platform | 2026-11].\n- **Instacart** is in the C1.ai pamphlet (`c1ai-identity-platform`) and the PromptQL pamphlet (`promptql-multiplayer-ai`). Both show it as a customer logo [c1ai-identity-platform | 2026-11] [promptql-multiplayer-ai | 2026-11].\n\nThe other named customers each appear in only one pamphlet:\n- Barndoor: Formlabs and MealSuite.\n- C1.ai: Zscaler and Qualtrics.\n- Merge: OpenAI, Dropbox and Telnyx.\n- PromptQL: Cisco, Morgan Stanley and Bank of America.\n\nI did not open the OmniTrust entity file. The index lists no customer names for OmniTrust, but I haven't confirmed that against the document itself.\n\nThese are vendor-marketing references only. None of the pamphlets states contract terms.",
+      "list_usd": 0.02,
+      "outcome": "end_turn",
+      "session_id": "sesn_01TKFnvFq2WXPW8o2sgakZpk",
+      "judge_scores": {
+        "claude-sonnet-5-5": 95.0,
+        "claude-opus-5-5": 96.0
+      },
+      "score": 95.5
+    },
+    {
+      "arm": "sonnet-raw",
+      "question_i": 1,
+      "repeat": 1,
+      "question": "Who is quoted endorsing Barndoor, and what is their role and company?",
+      "key": "Linda Xu, Director of Data Analytics & AI at MealSuite. [barndoor_ai_gateway]",
+      "answer": "Linda Xu is quoted endorsing Barndoor. She is Director of Data Analytics & AI at MealSuite. She says: \"Barndoor allows us to feel we can sleep better.\" (Source: barndoor_ai_gateway.txt, page 2.)",
+      "list_usd": 0.01,
+      "outcome": "end_turn",
+      "session_id": "sesn_01Swmb8k9FpW9G7vDwpfaoYP",
+      "judge_scores": {
+        "claude-sonnet-5-5": 93.0,
+        "claude-opus-5-5": 95.0
+      },
+      "score": 94.0
+    },
+    {
+      "arm": "sonnet-raw",
+      "question_i": 3,
+      "repeat": 0,
+      "question": "How many connectors and MCP servers does C1.ai claim, and what is its open-source connector framework called?",
+      "key": "400+ C1 Connectors built on Baton (its open-source connector framework) and 3,000+ C1 MCP Servers; C1 Bridge reaches on-prem systems. [c1ai_identity_platform]",
+      "answer": "C1.ai claims **400+ C1 Connectors** and **3,000+ C1 MCP Servers**. Its open-source connector framework is called **Baton**. These are the company's own marketing claims, not independently verified figures.\n\nSource: c1ai_identity_platform.txt, lines 51\u201352.",
+      "list_usd": 0.01,
+      "outcome": "end_turn",
+      "session_id": "sesn_01BkqFxj21XntJq7EdHG5RD7",
+      "judge_scores": {
+        "claude-sonnet-5-5": 95.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 96.0
+    },
+    {
+      "arm": "sonnet-raw",
+      "question_i": 1,
+      "repeat": 0,
+      "question": "Who is quoted endorsing Barndoor, and what is their role and company?",
+      "key": "Linda Xu, Director of Data Analytics & AI at MealSuite. [barndoor_ai_gateway]",
+      "answer": "Linda Xu is quoted endorsing Barndoor. She is Director of Data Analytics & AI at MealSuite. Her quote: \"You have to give every employee, not just the early adopters, a safe way to build AI skills instead of being left on their own. Barndoor allows us to feel we can sleep better.\"\n\nSource: barndoor_ai_gateway.txt, the Barndoor.ai \"AI Gateway\" pamphlet. It is the only testimonial I found in that file.",
+      "list_usd": 0.01,
+      "outcome": "end_turn",
+      "session_id": "sesn_01TgjzhmcXyzydJLD58SeUYa",
+      "judge_scores": {
+        "claude-sonnet-5-5": 96.0,
+        "claude-opus-5-5": 96.0
+      },
+      "score": 96.0
+    },
+    {
+      "arm": "sonnet-raw",
+      "question_i": 2,
+      "repeat": 0,
+      "question": "What share of organizations does C1.ai say experienced an identity-related breach in the past year, and what source does it cite for that statistic?",
+      "key": "80%; cited to C1.ai's 2026 Future of Identity Report, a survey of 505 IT and security leaders at U.S. enterprises (the pamphlet notes the footnote is partially illegible and 505 is a best reading). [c1ai_identity_platform]",
+      "answer": "C1.ai says **80% of organizations** experienced at least one identity-related breach in the past year (line 13 of the C1 Identity Platform solution brief, `c1ai_identity_platform.txt`).\n\nThe footnote cites C1.ai's own report, the *2026 Future of Identity Report*. That report is a survey of 505 IT and security leaders at U.S. enterprises (footnote 1, same file). The statistic therefore comes from the vendor's own survey, not an independent source. The footnote text is partly illegible in the scan, so the 505 sample size is a best reading.",
+      "list_usd": 0.01,
+      "outcome": "end_turn",
+      "session_id": "sesn_01Wmo2F3Qt5M6PYaN95nRbdU",
+      "judge_scores": {
+        "claude-sonnet-5-5": 97.0,
+        "claude-opus-5-5": 98.0
+      },
+      "score": 97.5
+    },
+    {
+      "arm": "sonnet-raw",
+      "question_i": 2,
+      "repeat": 1,
+      "question": "What share of organizations does C1.ai say experienced an identity-related breach in the past year, and what source does it cite for that statistic?",
+      "key": "80%; cited to C1.ai's 2026 Future of Identity Report, a survey of 505 IT and security leaders at U.S. enterprises (the pamphlet notes the footnote is partially illegible and 505 is a best reading). [c1ai_identity_platform]",
+      "answer": "C1.ai says **80%** of organizations experienced at least one identity-related breach in the past year (`c1ai_identity_platform.txt`, line 13).\n\nThe footnote cites C1.ai's own *2026 Future of Identity Report*. That report is a survey of 505 IT and security leaders at U.S. enterprises (same file, line 71). So the figure comes from the company's own survey and not from an independent source.\n\nThe footnote text is partly illegible in the scan, and the file notes that the survey size of 505 is a best reading.",
+      "list_usd": 0.01,
+      "outcome": "end_turn",
+      "session_id": "sesn_01Ck8U46JXfJWf7TDXZUKe36",
+      "judge_scores": {
+        "claude-sonnet-5-5": 96.0,
+        "claude-opus-5-5": 100.0
+      },
+      "score": 98.0
+    },
+    {
+      "arm": "sonnet-raw",
+      "question_i": 3,
+      "repeat": 1,
+      "question": "How many connectors and MCP servers does C1.ai claim, and what is its open-source connector framework called?",
+      "key": "400+ C1 Connectors built on Baton (its open-source connector framework) and 3,000+ C1 MCP Servers; C1 Bridge reaches on-prem systems. [c1ai_identity_platform]",
+      "answer": "C1.ai claims two figures (source: `c1ai_identity_platform.txt`):\n- **Connectors:** \"400+\" C1 Connectors.\n- **MCP servers:** \"3,000+\" C1 MCP Servers.\n\nThe open-source connector framework is called **Baton**. The pamphlet says the connectors are \"built on Baton, our open-source connector framework.\"\n\nThese are the vendor's own marketing claims, not independently verified figures.",
+      "list_usd": 0.01,
+      "outcome": "end_turn",
+      "session_id": "sesn_013Eeauw7WKSY6Y3VGwQBSFE",
+      "judge_scores": {
+        "claude-sonnet-5-5": 93.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 95.0
+    },
+    {
+      "arm": "sonnet-raw",
+      "question_i": 4,
+      "repeat": 0,
+      "question": "OmniTrust's Halo line has two pamphlets aimed at different audiences. What is each offering called, and how do the two relate?",
+      "key": "Halo for AI, Security & IT Leadership describes the Halo AI Control Plane (Endpoint, AI Gateway, Compute Cloud); Halo for AI Builders & Business Teams describes Halo Agent Studio. Agent Studio is an add-on to the control plane, using the same Halo identity, policy, runtime and cost controls. [both omnitrust pamphlets]",
+      "answer": "**The two offerings**\n- **AI, Security & IT Leadership pamphlet:** the offering is the **Halo AI Control Plane**. It discovers, governs and secures AI use across the enterprise. It has three layers: Halo Endpoint, Halo AI Gateway and Halo Compute Cloud. (Source: omnitrust_halo_security_leadership.txt)\n- **AI Builders & Business Teams pamphlet:** the offering is **Halo Agent Studio**. It lets business teams build, connect and run AI agents. (Source: omnitrust_halo_builders.txt)\n\n**How they relate**\n- **Add-on:** The leadership pamphlet lists Halo Agent Studio as an \"Add-On\" to the control plane. It gives business teams an approved place to build agents under the same Halo identity, data protection, policy, runtime and cost controls. (Source: omnitrust_halo_security_leadership.txt)\n- **Governed by the control plane:** The builders pamphlet's architecture diagram puts Agent Studio on top of a \"HALO Control Plane\" layer. That layer provides governance, identity and runtime protection. Below it is Halo Compute Cloud, which provides models, inference and sovereign options. (Source: omnitrust_halo_builders.txt)\n- **Shared base:** Both pamphlets use Halo Compute Cloud. Both also tie the offering to OmniTrust's ILM/PKI Agentic Identity Fabric. (Sources: both files)\n\nIn short, the control plane is the governance platform that IT and security teams run. Agent Studio is the add-on where builders create agents inside those controls.",
+      "list_usd": 0.03,
+      "outcome": "end_turn",
+      "session_id": "sesn_018YcqAHKZxTYA9joSoRLTEk",
+      "judge_scores": {
+        "claude-sonnet-5-5": 90.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 93.5
+    },
+    {
+      "arm": "sonnet-raw",
+      "question_i": 5,
+      "repeat": 0,
+      "question": "Both OmniTrust pamphlets cite IDC 2026 projections for 2030. What figures do they give, and do the two pamphlets agree?",
+      "key": "Both cite 459 trillion (459T) agent actions per year globally by 2030 (IDC, 2026), so they agree on that figure; the Security & IT Leadership pamphlet additionally cites 2.5B active AI agents globally by 2030 (IDC, 2026). [both omnitrust pamphlets]",
+      "answer": "The two pamphlets cite the same IDC (2026) figure for 2030, but each also gives a different 2030 figure, so they don't match in full.\n\n- **Shared figure:** Both give 459 trillion (459T) agent actions per year by 2030, attributed to IDC, 2026.\n  - The security leadership pamphlet gives it as \"459T AGENT ACTIONS PER YEAR BY 2030 (IDC, 2026)\" (`omnitrust_halo_security_leadership.txt`, line 19).\n  - The builders pamphlet gives it as \"2030: 459T agent actions per year globally (IDC, 2026)\" (`omnitrust_halo_builders.txt`, line 10).\n- **Extra figure only in the security leadership pamphlet:** It also cites \"2030: 2.5B active AI agents globally (IDC, 2026)\" (line 17). The builders pamphlet has no 2.5B figure.\n\nThe other 2028 projections are attributed to Gartner, not IDC, so I left them out. The security leadership pamphlet gives 150,000+ AI agents per Fortune 500 enterprise. The builders pamphlet gives 70% of enterprises using AI agents.",
+      "list_usd": 0.02,
+      "outcome": "end_turn",
+      "session_id": "sesn_01NFcMCFYhGHRNS8VmSGxTok",
+      "judge_scores": {
+        "claude-sonnet-5-5": 62.0,
+        "claude-opus-5-5": 90.0
+      },
+      "score": 76.0
+    },
+    {
+      "arm": "sonnet-raw",
+      "question_i": 5,
+      "repeat": 1,
+      "question": "Both OmniTrust pamphlets cite IDC 2026 projections for 2030. What figures do they give, and do the two pamphlets agree?",
+      "key": "Both cite 459 trillion (459T) agent actions per year globally by 2030 (IDC, 2026), so they agree on that figure; the Security & IT Leadership pamphlet additionally cites 2.5B active AI agents globally by 2030 (IDC, 2026). [both omnitrust pamphlets]",
+      "answer": "The two pamphlets cite different IDC 2026 figures for 2030, and the figures measure different things. They don't contradict each other.\n\n- **Security leadership pamphlet:** it gives two IDC (2026) projections for 2030. The first is 2.5B active AI agents globally. The second is 459T agent actions per year by 2030. (`omnitrust_halo_security_leadership.txt`, lines 17 and 19)\n- **Builders pamphlet:** it gives one IDC (2026) projection for 2030, which is 459T agent actions per year globally. (`omnitrust_halo_builders.txt`, line 10)\n\nThe 459T agent-actions figure appears in both pamphlets and is identical. Only the security leadership pamphlet cites the 2.5B active-agents figure. The builders pamphlet doesn't mention it.\n\nAll of these are projections, not measured values.\n\nThe pamphlets' other headline statistics for the earlier years differ, but they are attributed to Gartner, not IDC. The security leadership pamphlet cites 150,000+ AI agents per Fortune 500 enterprise by 2028. The builders pamphlet cites 70% of enterprises using AI agents by 2028.",
+      "list_usd": 0.02,
+      "outcome": "end_turn",
+      "session_id": "sesn_01JRav5xHgDkxTts6s3rJ54f",
+      "judge_scores": {
+        "claude-sonnet-5-5": 88.0,
+        "claude-opus-5-5": 93.0
+      },
+      "score": 90.5
+    },
+    {
+      "arm": "sonnet-raw",
+      "question_i": 6,
+      "repeat": 0,
+      "question": "What ratio of machine identities to human identities does OmniTrust cite today?",
+      "key": "109:1 machine identities per human. [omnitrust_halo_security_leadership]",
+      "answer": "OmniTrust cites **109:1**, meaning 109 machine identities for every human. It is labelled \"TODAY\" in the Halo security-leadership pamphlet (omnitrust_halo_security_leadership.txt, line 15). The same pamphlet gives later figures for 2028 and 2030, but those are Gartner and IDC projections about AI agents. They are not the current ratio.\n\nThe other OmniTrust pamphlet, omnitrust_halo_builders.txt, has no machine-identity ratio.",
+      "list_usd": 0.02,
+      "outcome": "end_turn",
+      "session_id": "sesn_01H4oWD5GLM9PwPxbScQNPXU",
+      "judge_scores": {
+        "claude-sonnet-5-5": 95.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 96.0
+    },
+    {
+      "arm": "sonnet-raw",
+      "question_i": 4,
+      "repeat": 1,
+      "question": "OmniTrust's Halo line has two pamphlets aimed at different audiences. What is each offering called, and how do the two relate?",
+      "key": "Halo for AI, Security & IT Leadership describes the Halo AI Control Plane (Endpoint, AI Gateway, Compute Cloud); Halo for AI Builders & Business Teams describes Halo Agent Studio. Agent Studio is an add-on to the control plane, using the same Halo identity, policy, runtime and cost controls. [both omnitrust pamphlets]",
+      "answer": "**The two offerings**\n- **Security, AI and IT leadership pamphlet:** the offering is the **Halo AI Control Plane**. The pamphlet describes it as \"an independent AI control plane to discover usage, protect sensitive information, enforce governance policies and optimize AI workloads.\" It includes the Halo AI Gateway and Halo Compute Cloud for private inference. (Source: omnitrust_halo_security_leadership.txt, lines 9, 26, 38, 65.)\n- **Builders and business teams pamphlet:** the offering is **Halo Agent Studio**. Business teams and AI builders use it to create, deploy and operate agents that connect to enterprise apps and data. (Source: omnitrust_halo_builders.txt, line 8.)\n\n**How they relate**\n- The leadership pamphlet lists Halo Agent Studio as an **add-on** to the control plane. It gives business teams an approved environment to build agents \"using the same Halo identity, data protection, policy, runtime and cost controls.\" (omnitrust_halo_security_leadership.txt, lines 48\u201349.)\n- The builders pamphlet says every agent runs \"within Halo's governance framework.\" It also says cost control comes \"through Halo's AI Gateway.\" (omnitrust_halo_builders.txt, lines 44, 69.)\n- So the control plane is the governing platform, and Agent Studio is the build-and-deploy layer on top of it. The leadership pamphlet frames this as IT control and the builders pamphlet as agent creation.\n- The builders pamphlet says Agent Studio is \"powered by OmniTrust's AI Lifecycle Management platform.\" It also ties both to OmniTrust's ILM/PKI Agentic Identity Fabric, which handles cryptographic agent identity. (omnitrust_halo_builders.txt, line 71; omnitrust_halo_security_leadership.txt, line 73.)",
+      "list_usd": 0.02,
+      "outcome": "end_turn",
+      "session_id": "sesn_01PriZbUPymohtdn1SaoGPVc",
+      "judge_scores": {
+        "claude-sonnet-5-5": 90.0,
+        "claude-opus-5-5": 90.0
+      },
+      "score": 90.0
+    },
+    {
+      "arm": "sonnet-raw",
+      "question_i": 6,
+      "repeat": 1,
+      "question": "What ratio of machine identities to human identities does OmniTrust cite today?",
+      "key": "109:1 machine identities per human. [omnitrust_halo_security_leadership]",
+      "answer": "OmniTrust cites **109:1**, meaning 109 machine identities for every human. It labels this figure \"TODAY\". The source is `omnitrust_halo_security_leadership.txt`. The same pamphlet lists the 2028 and 2030 AI-agent figures as separate projections, attributed to Gartner and IDC (2026). The pamphlet gives no source for the 109:1 ratio itself.",
+      "list_usd": 0.02,
+      "outcome": "end_turn",
+      "session_id": "sesn_0137VBemFWqiQWREY1ZnWt91",
+      "judge_scores": {
+        "claude-sonnet-5-5": 92.0,
+        "claude-opus-5-5": 98.0
+      },
+      "score": 95.0
+    },
+    {
+      "arm": "sonnet-raw",
+      "question_i": 7,
+      "repeat": 0,
+      "question": "What are the four capabilities in the Merge for Workforce stack?",
+      "key": "Universal context layer; MCP gateway; Model routing; Security suite. [merge_dev_platform]",
+      "answer": "The Merge for Workforce stack has four capabilities (source: merge_dev_platform.txt, page 1 architecture diagram):\n\n1. **Universal context layer**: company knowledge that goes with every AI.\n2. **MCP gateway**: distributes approved connectors and skills.\n3. **Model routing**: routes, caps and controls AI spend.\n4. **Security suite**: deploys AI without adding new risk.",
+      "list_usd": 0.01,
+      "outcome": "end_turn",
+      "session_id": "sesn_0111jNCrkheSsvjXqxjwcJc6",
+      "judge_scores": {
+        "claude-sonnet-5-5": 97.0,
+        "claude-opus-5-5": 100.0
+      },
+      "score": 98.5
+    },
+    {
+      "arm": "sonnet-raw",
+      "question_i": 7,
+      "repeat": 1,
+      "question": "What are the four capabilities in the Merge for Workforce stack?",
+      "key": "Universal context layer; MCP gateway; Model routing; Security suite. [merge_dev_platform]",
+      "answer": "The Merge for Workforce stack has four capabilities (source: merge_dev_platform.txt, page 1 architecture diagram):\n\n1. **Universal context layer**: company knowledge that goes with every AI.\n2. **MCP gateway**: distributes approved connectors and skills.\n3. **Model routing**: routes, caps and controls AI spend.\n4. **Security suite**: deploys AI without adding new risk.",
+      "list_usd": 0.01,
+      "outcome": "end_turn",
+      "session_id": "sesn_01WtxRWDRHZydYPfPUrVGNEe",
+      "judge_scores": {
+        "claude-sonnet-5-5": 97.0,
+        "claude-opus-5-5": 100.0
+      },
+      "score": 98.5
+    },
+    {
+      "arm": "sonnet-raw",
+      "question_i": 8,
+      "repeat": 0,
+      "question": "What does PromptQL call its shared team knowledge feature, and how are updates to it controlled?",
+      "key": "The operational wiki (shared wiki of reviewed knowledge); updates are proposed from the work and people review/approve proposed wiki updates before they become shared context. [promptql_multiplayer_ai]",
+      "answer": "PromptQL calls it the **\"operational wiki\"**, also shown as the \"shared wiki\" (promptql_multiplayer_ai.txt, p. 1\u20132). It is described as shared knowledge for your business: definitions, decisions and exceptions.\n\nPeople control updates by reviewing them. Bots propose wiki updates as work happens. The pamphlet says to \"review proposed wiki updates to control what becomes shared knowledge.\" The architecture diagram labels these \"Context updates\", \"Proposed from work, reviewed by people\". Reviewed updates become context that other bots can use.\n\nThe pamphlet doesn't say who is allowed to approve updates or what roles or permissions apply. It only says generally that you can \"configure access and scopes.\"",
+      "list_usd": 0.01,
+      "outcome": "end_turn",
+      "session_id": "sesn_01QirNRfqXwM4y6u4pTRfwkP",
+      "judge_scores": {
+        "claude-sonnet-5-5": 95.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 96.0
+    },
+    {
+      "arm": "sonnet-raw",
+      "question_i": 8,
+      "repeat": 1,
+      "question": "What does PromptQL call its shared team knowledge feature, and how are updates to it controlled?",
+      "key": "The operational wiki (shared wiki of reviewed knowledge); updates are proposed from the work and people review/approve proposed wiki updates before they become shared context. [promptql_multiplayer_ai]",
+      "answer": "PromptQL calls it the **shared wiki**, also called the \"operational wiki\" (source: `promptql_multiplayer_ai.txt`). The pamphlet describes it as \"Shared knowledge for your business,\" holding definitions, decisions and exceptions.\n\nUpdates are controlled by human review. Bots propose wiki updates as people work, and people review them. The pamphlet says: \"Review proposed wiki updates to control what becomes shared knowledge.\" Its architecture diagram describes \"Context updates\" as \"Proposed from work, reviewed by people.\" Decisions, definitions and corrections that are approved become context other bots can use.\n\nThe pamphlet doesn't say who is allowed to approve updates. It only says you can \"Configure access and scopes.\"",
+      "list_usd": 0.01,
+      "outcome": "end_turn",
+      "session_id": "sesn_0128ByZPzeBW2MAUynSUDBmA",
+      "judge_scores": {
+        "claude-sonnet-5-5": 95.0,
+        "claude-opus-5-5": 96.0
+      },
+      "score": 95.5
+    },
+    {
+      "arm": "sonnet-raw",
+      "question_i": 9,
+      "repeat": 0,
+      "question": "Which customer or 'trusted by' company names appear in more than one of the six pamphlets, and in which pamphlets?",
+      "key": "Ramp appears for C1.ai and for Merge (Merge for Products 'trusted by'); Instacart appears for C1.ai and for PromptQL. Credit any answer naming Ramp and Instacart with roughly those pamphlet pairs; naming only one of the two is half right. Model providers (e.g. Anthropic, OpenAI as a logo of models) do not count, though OpenAI is also a Merge customer. [cross-pamphlet]",
+      "answer": "Two company names appear in more than one pamphlet:\n\n- **Instacart** is in `promptql_multiplayer_ai.txt` and in `c1ai_identity_platform.txt`.\n  - PromptQL lists it in its \"Customer logos\" line, alongside Cisco, Morgan Stanley and others.\n  - C1.ai lists it in the logo strip at the top of its solution brief (\"ramp | instacart | zscaler\u2026\").\n- **Ramp** is in `merge_dev_platform.txt` and in `c1ai_identity_platform.txt`.\n  - Merge lists it in the second \"Trusted by\" line, with OpenAI, Perplexity, Dropbox, Factory, Zoom and AON.\n  - C1.ai lists it in the same logo strip.\n\nSeveral other names repeat, but only within `merge_dev_platform.txt`. Its two \"Trusted by\" lists share OpenAI, Dropbox and Factory.\n\nThe Barndoor and two OmniTrust pamphlets (`barndoor_ai_gateway.txt`, `omnitrust_halo_builders.txt`, `omnitrust_halo_security_leadership.txt`) share no customer names with any other pamphlet.\n\nI searched by keyword and by the names found. A few very long lines in the files were not displayed, so a name appearing only there could have been missed.",
+      "list_usd": 0.04,
+      "outcome": "end_turn",
+      "session_id": "sesn_01EMEgTKGM5F8wnGHH7uByuv",
+      "judge_scores": {
+        "claude-sonnet-5-5": 95.0,
+        "claude-opus-5-5": 97.0
+      },
+      "score": 96.0
+    },
+    {
+      "arm": "sonnet-raw",
+      "question_i": 9,
+      "repeat": 1,
+      "question": "Which customer or 'trusted by' company names appear in more than one of the six pamphlets, and in which pamphlets?",
+      "key": "Ramp appears for C1.ai and for Merge (Merge for Products 'trusted by'); Instacart appears for C1.ai and for PromptQL. Credit any answer naming Ramp and Instacart with roughly those pamphlet pairs; naming only one of the two is half right. Model providers (e.g. Anthropic, OpenAI as a logo of models) do not count, though OpenAI is also a Merge customer. [cross-pamphlet]",
+      "answer": "**Ramp** is the only customer or \"trusted by\" name that appears in more than one pamphlet. It appears in two:\n\n- **`merge_dev_platform.txt`** lists Ramp in a second \"Trusted by\" row: \"OpenAI, Perplexity, Dropbox, Ramp, Factory, Zoom, AON\".\n- **`c1ai_identity_platform.txt`** says, in its \"About C1.ai\" section, \"Companies such as Ramp, Zscaler, Qualtrics, and DoorDash trust C1.ai\".\n\nOther overlaps:\n\n- **Within one pamphlet only:** OpenAI, Dropbox and Factory are named in both of Merge's \"Trusted by\" rows, but only in `merge_dev_platform.txt`.\n- **Not customers:** OpenAI also appears in Merge's list of supported AI-model logos, which is not a customer list.\n- **No overlap:** The customer lists in `barndoor_ai_gateway.txt` (formlabs, MEALSUITE, SYNDIO, caudex, IntelePeer, Breakthrough T1D, EOS Fitness) and `promptql_multiplayer_ai.txt` (Cisco, Morgan Stanley, Instacart, Swiggy, Bank of America, StanleyBlack&Decker, Excedr, Stitch Fix, Charger Logistics) share no names with the other pamphlets.\n- **No customer names found:** The two OmniTrust Halo pamphlets (`omnitrust_halo_builders.txt` and `omnitrust_halo_security_leadership.txt`) name no customers. The security-leadership one shows only partner and technology logos.\n\nI searched by keyword and by the specific names. I did not read every file in full, so a customer name placed in an unusual spot could have been missed.",
+      "list_usd": 0.04,
+      "outcome": "end_turn",
+      "session_id": "sesn_01VHrD6zbEUgqWqhUwJQzjWi",
+      "judge_scores": {
+        "claude-sonnet-5-5": 40.0,
+        "claude-opus-5-5": 45.0
+      },
+      "score": 42.5
+    }
+  ]
+}
