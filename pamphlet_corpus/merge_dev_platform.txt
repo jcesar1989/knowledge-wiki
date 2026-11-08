@@ -1,0 +1,87 @@
+[SOURCE: Merge (merge.dev) "Merge for Workforce / Ship AI" pamphlet, photographed by the analyst, November 2026. Transcribed by Claude vision.]
+
+# Page 1
+
+**MERGE for Workforce**
+merge.dev/workforce
+
+# Unlock the full potential of AI at work
+
+Merge for Workforce brings company context, tools, and approved models to the AI employees use, under policies admins set once and enforce everywhere.
+
+[Architecture diagram: "Merge for Workforce" in the center, with a stack of four capabilities: Universal context layer (company knowledge that goes with every AI); MCP gateway (distribute approved connectors and skills); Model routing (route, cap, and control AI spend); Security suite (deploy AI without adding new risk). Below the stack: "Deployable in your cloud or ours," with AWS and Google Cloud logos. Left side, "AI tools" (logos of multiple AI tool vendors) and "Agents" (logos of multiple agent vendors). Right side, "Synced data" (Workday, Google Drive, and Salesforce logos), "MCP connectors" (Slack, Notion, and GitHub logos), "Skills" (three identical icons), and "LLMs" (OpenAI, Anthropic, and Gemini-style logos).]
+
+### Provision
+**Grant employees AI access that fits their roles**
+Connect identity providers like Okta or Entra via SCIM so AI access follows your org chart. New hires see what they are approved to use.
+
+[Mockup panel: "Identity provider" with a row of provider logos. "SCIM provisioning" shows status "Live," described as "Users & groups auto-synced." "Synced groups" lists: Sales, GTM, Engineering, Product, All teams.]
+
+### Permission
+**Provide teams with the agent tools and models they need**
+Distribute access to AI models, agent tools, and skills to employees, with granular permissions for what each team can access.
+
+[Mockup panel: "Approved connectors," "Access assigned by group."]
+
+| Connector | Status |
+|---|---|
+| Salesforce | Active |
+| Slack | Active |
+| Gmail | Active |
+| GitHub | Active |
+| Notion | Active |
+
+### Act
+**Secure AI workflows without slowing adoption**
+Employees use AI to take approved actions, while tool calls are scanned for sensitive data before reaching external systems.
+
+[Mockup panel: activity log.]
+
+| Action | Result | Detail |
+|---|---|---|
+| Updated Acme corp deal | Success | |
+| Send bulk email campaign | Blocked | Not in GTM group |
+| Merged PR in web-app | Success | |
+| Posted to #launch-q3 | Success | |
+
+**Trusted by:** OpenAI, American Express, Dropbox, Netflix, Factory, Rula
+
+---
+
+# Page 2
+
+**MERGE for Products**
+merge.dev
+
+# Ship AI and integrations your customers trust, faster
+
+Merge is the layer between your product and every external connection: sync customer data, give agents secure tool access, and route to any model, all through one platform.
+
+[Architecture diagram: "Your product" on the left, connected to "MERGE" in the center, labeled "The layer between your product and every external connection," with "Deployable in your cloud or ours" and "Security & observability" above it. Three groups on the right:
+- **Data systems:** Google, Salesforce, Oracle, ADP, Workday, and HubSpot logos.
+- **Agent tools:** Linear, Asana, GitHub, Notion, Confluence, and Slack logos.
+- **AI models:** Anthropic, OpenAI, Mistral, Gemini, Meta, and Zed-style logos.]
+
+### Data systems
+**Sync customer data**
+Connect to HRIS, ATS, CRM, accounting, ticketing, file storage, knowledge base, and chat systems, all through one API.
+
+[Diagram: "MERGE Unified" product label with connector icons.]
+
+### Agent tools
+**Give agents secure tool access**
+Scope agent access across 5,000+ tools, with every call authenticated, logged, and auditable.
+
+[Diagram: "MERGE Agent Handler" product label with tool icons.]
+
+### AI models
+**Route to any LLM**
+Access every major model with intelligent or customer routing and cost and performance control built in.
+
+[Diagram: "MERGE Gateway" product label with model logos (Anthropic, Gemini, Meta).]
+
+> "With the help of Merge, we're able to deliver the most connected voice AI agents in the market. As a result, demand from enterprise organizations across industries has surged."
+>
+> **Ian Reither, COO**, telnyx
+
+**Trusted by:** OpenAI, Perplexity, Dropbox, Ramp, Factory, Zoom, AON

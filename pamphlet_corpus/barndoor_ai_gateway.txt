@@ -1,0 +1,69 @@
+[SOURCE: Barndoor.ai 'AI Gateway' pamphlet, photographed by the analyst, November 2026. Transcribed by Claude vision.]
+
+# Page 1
+
+# Barndoor.ai
+
+# Barndoor AI Gateway
+
+**The governed path to using AI and agents across your business**
+
+The AI gateway governs every model and MCP server your teams, agents, and automations use.
+
+[Diagram: Architecture of the Barndoor AI Gateway. Left column, "WHO CONNECTS": "Your human and agent workforce" (with user and bot icons and AI model logos) triggers "Barndoor Automations" ("Repeatable AI workflows, governed by gateway policies"). Center, a dashed box labeled "Barndoor.ai | AI GATEWAY" lists six controls in order: Human & agent access; Runtime policy enforcement; Sensitive data protection; Routing & fallback; Usage & cost control; Observability & audit. Below the box, "Identity provider integration" with identity provider logos. Right column, "WHAT THEY CAN REACH AND DO": "LLMs" ("Frontier and self-hosted models," with AI model logos) and "MCP servers" ("Systems of record, docs, data," with GitHub, Azure, Slack, and Notion logos).]
+
+| Metric | Value |
+|---|---|
+| MCP servers | 100+ (+ custom) |
+| AI models | 100+ (+ self-hosted) |
+| Certification | SOC 2 Type II certified |
+
+## What the AI gateway enforces on every call
+
+- **Human & agent access:** RBAC by role, group, tool, and action, with a dedicated identity for every agent.
+- **Runtime policy:** Allow, deny, or require approval per tool call and action, enforced inline.
+- **AI-ready DLP:** PII and secrets masked or blocked before they reach a model or MCP server.
+- **Routing & fallback:** Frontier and self-hosted models, routed to the most cost-effective option.
+- **Usage & cost control:** Real-time spend and hard caps by user, team, agent, and model.
+- **Observability & audit:** Every action and the policy behind it, streamed to Splunk or Datadog.
+
+**Trusted by security and platform teams at:** formlabs, MEALSUITE, SYNDIO, caudex, IntelePeer, Breakthrough T1D, EOS Fitness
+
+---
+
+# Page 2
+
+## Barndoor Automations
+
+# Create and run reliable AI automations
+
+Describe a process and Barndoor turns it into defined steps that run the same way every time.
+
+[Diagram: Four-step process flow with check-mark nodes connected by dashed lines: "Deterministic" (No model involved); "Scoped inference" (AI judgment, fenced in); "Validated" (Every output checked to schema); "Conditional" (Control flow you can read).]
+
+- **Precise:** Schema-validated output on every run.
+- **Scoped:** Inference only when and where you define it.
+- **Fast:** Built in natural language. No nodes to wire.
+- **Run anywhere:** Portable across Claude, ChatGPT, Slack, or as an API or MCP.
+
+## AI GATEWAY + AUTOMATIONS
+
+### Ship AI automations to every team. Govern them all from one gateway.
+
+- **Unified policy:** Use the same access controls and DLP on every step.
+- **One audit trail:** See every run's models, inputs, and outputs.
+- **Controlled context:** Define the data and model for each step of the workflow.
+- **Distributions:** Provision automations to teams and agents by group, role, or person.
+
+**Barndoor is secure by design.** SOC 2 Type II. Zero-trust access for every agent and request.
+
+**Deploy where your data lives:**
+- **SaaS:** Fully managed
+- **Private cloud:** In your VPC
+- **On prem:** Data residency
+
+> "You have to give every employee, not just the early adopters, a safe way to build AI skills instead of being left on their own. **Barndoor allows us to feel we can sleep better.**"
+>
+> — Linda Xu, Director of Data Analytics & AI, MealSuite
+
+**Ready to become AI-first?** barndoor.ai/get-a-demo | docs.barndoor.ai

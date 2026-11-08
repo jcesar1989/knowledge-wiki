@@ -1,0 +1,77 @@
+[SOURCE: OmniTrust 'Halo for AI Builders & Business Teams' pamphlet, photographed by the analyst, November 2026. Transcribed by Claude vision.]
+
+# HALO For AI Builders & Business Teams by OmniTrust
+
+Build AI Agents. Put Them to Work, Securely.
+Connect Your Apps. Automate Real Work. Scale with Confidence.
+
+Move beyond experimenting with AI. Halo Agent Studio empowers business teams and AI builders to create, deploy and operate intelligent agents that connect to real enterprise applications, data and workflows. From personal assistants to business automation, Halo combines the freedom to innovate with built-in identity, security, governance and cost control.
+
+[Figure: Infographic with three statistics and four callouts. Statistics: "TODAY: 10M+ AI agents being built by teams." "2028: 70% of enterprises will use AI agents (Gartner, 2026)." "2030: 459T agent actions per year globally (IDC, 2026)." Callouts: "FAST AGENT BUILDING: Teams want to launch agents quickly without complex setup." "RUNTIME CONTROL: Agents need secure runtime governance, approvals and kill-switch authority." "DATA PROTECTION: Prompts, tools and enterprise data must stay protected across frontier models." "MODEL FREEDOM: Builders need the freedom to choose the right models, without vendor lock-in." The illustration shows a person at a laptop with a "Create Agent" panel (Describe goal, Choose tools, Select model, Launch, Deploy Agent →), agent types (Research Agent, Analytics Agent, Support Agent, Ops Agent, Custom Agent), an "Agent Runtime" box (Route, Monitor, Govern), data-center servers, and the caption "ANY MODEL. ANY TOOL." with model and vendor logos.]
+
+**Turn AI potential into real business productivity.** Build agents that do more than answer questions. Give them approved access to business systems, let them perform useful tasks and automation workforce productivity.
+
+**BUILD**
+**Mobilize AI Agents in Moments**
+Create and customize AI agents with intuitive tools. Define their purpose, instructions, knowledge, capabilities and preferred models without starting from scratch.
+
+**CONNECT**
+**Connect Apps, Data & Tools Securely**
+Bring agents into your real business workflows using enterprise application integrations, APIs and MCP. Give every agent access to the information and tools it needs, with permissions that you control.
+
+**OPERATE & SCALE**
+**Put Trusted AI to Work**
+Run agents in secure environments with identity, runtime policies, spending limits, approvals and auditability built in. Share and expand AI-powered workflows across your teams with confidence.
+
+**HALO** One Agent Studio. Unlimited Business Possibilities.
+
+[Figure: Architecture diagram. Left-side use cases: Vendor Managed Inventory; Spend Management; Customer Success; Competitive Intelligence; Business Reporting & Many More Uses. "Business Teams & AI Builders" groups: Engineering, Product, Operations, Marketing, Finance, Customer Support. Top layer, "HALO Agent Studio," lists Prompt, Knowledge, Tools, Action, and the sub-labels Agent Builder | Agent Teams | Business Automation. Middle band labels: "Shared Governance" and "App & Tool Connect." Middle layer, "HALO Control Plane," lists Governance | Identity | Runtime Protection. Bottom layer, "HALO Compute Cloud," lists Models | Inference | Sovereign Options. Right side: "Connected Apps & Tools" (icons for cloud and productivity applications, plus "..."), and "Approved Models" (model provider logos, plus "A..."). No numeric values are shown.]
+
+© OmniTrust Security LLC
+
+---
+
+## Page 2
+
+| Capability | Features & Outcomes |
+|---|---|
+| **Agent Builder** | Create, configure and deploy agents through an intuitive interface. Define jobs, instructions, knowledge, tools and actions. |
+| **App & Tool Connections** | Connect business applications, enterprise data, APIs and MCP-enabled tools with scoped access. |
+| **Flexible AI Models** | Select approved AI models and providers, including Halo-managed and bring-your-own-key options. |
+| **Secure Agent Runtime** | Execute agents in isolated environments with network restrictions, gateway-mediated actions and credential protection. |
+| **Identity & Permissions** | Give each agent its own identity, authorized capabilities and controlled access to enterprise resources. |
+| **Governance & Human Oversight** | Apply policies, require approvals, monitor activity and quarantine agents when necessary. |
+| **Cost & Usage Control** | Manage agent budgets, understand model consumption and control spending through Halo's AI Gateway. |
+
+[Figure: Screenshot of the Halo agent management interface. Left navigation icons: HALO, Agents, Edge, Trust, Spend, Apps, Admin, Docs, Theme. Agent list:
+- Vendor Managed Inventory (OpenClaw · us-openai-gpt-5-6-luna)
+- FleetAuth Personal Assistant (OpenClaw · us-anthropic-claude-op…), expanded to show Files, Triggers, Channels, and SESSIONS: "FleetAuth Assistant Setup"
+- Spend Management Agent (OpenClaw · trustai-standard)
+- Kaizen Improvement Agent (OpenClaw · us-anthropic-claude-opu…)
+- Competitive Analysis Agent (OpenClaw · us-anthropic-claude-son…)
+- Customer Success Agent (OpenClaw · kimi-k3-gmi), status "Offline"
+- Sales Intelligence Agent (OpenClaw · trustai-standard)
+- "Create a new agent +"
+- "Dark / light mode"]
+
+**HALO** Halo Agent Studio Differentiators
+
+**Build Faster. Deliver Value Sooner.**
+Move from an idea to a working agent through a streamlined creation and deployment experience.
+
+**Connect AI to Your Business.**
+Go beyond standalone chatbots. Give agents governed access to the apps and info needed to perform work.
+
+**Choose Your AI. Control Your Costs.**
+Select the models, providers and infrastructure that best suit your requirements while maintaining visibility over consumption.
+
+**Security Built In, Not Bolted On.**
+Every agent operates within Halo's governance framework, with identity, permissions, runtime protection, evidence and operator control.
+
+**Built on Decades of Trust. Engineered for the AI Workforce.** Halo Agent Studio is powered by OmniTrust's AI Lifecycle Management platform and supported by our broader Trust Lifecycle Management expertise. Together with OmniTrust's ILM/PKI Agentic Identity Fabric, our approach brings cryptographic trust, agent identity and enterprise security principles to the autonomous AI era.
+
+**OmniTrust**
+www.OmniTrustHalo.com
+© OmniTrust Security LLC
+
+OmniTrust secures the connected world, from silicon to cloud to AI, by delivering verifiable, enforceable trust across the full lifecycle. As the leader in Trust Lifecycle Management (TLM), OmniTrust protects over 2 billion devices and 3 billion software updates annually, extending trusted identity, security, and operational control from embedded systems to enterprise infrastructure and autonomous AI.

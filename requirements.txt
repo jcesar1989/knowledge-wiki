@@ -1,0 +1,9 @@
+anthropic>=2.0.0,<3
+python-docx>=1.1
+pillow>=10.0
+python-dotenv>=1.0
+jupyter>=1.0
+# Used by the normalize_any() helper for .xlsx / .pptx corpora; the
+# committed EDGAR run doesn't need them, but your own document rooms may.
+openpyxl>=3.1
+python-pptx>=0.6

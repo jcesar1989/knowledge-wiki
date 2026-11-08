@@ -1,0 +1,93 @@
+[SOURCE: OmniTrust 'Halo for AI, Security & IT Leadership' pamphlet, photographed by the analyst, November 2026. Transcribed by Claude vision.]
+
+# HALO For AI, Security & IT Leadership by OmniTrust
+
+**Take Control of Enterprise AI**
+
+**Discover Every Risk. Enforce Every Policy. Optimize Every Interaction.**
+
+AI adoption is accelerating across employee devices, applications, models and autonomous agents. Halo provides an independent AI control plane to discover usage, protect sensitive information, enforce governance policies and optimize AI workloads, without forcing employees to abandon the tools they already use.
+
+**AI adoption is outpacing enterprise control -** Organizations face expanding Shadow AI, uncontrolled data exposure, inconsistent AI policies, growing agent authority, escalating inference costs and limited auditability.
+
+[Figure: Key statistics and illustration]
+
+- **TODAY:** 109:1 machine identities per human
+- **2028:** 150,000+ AI agents per Fortune 500 enterprise (Gartner, 2026)
+- **2030:** 2.5B active AI agents globally (IDC, 2026)
+
+[Figure: Illustration of a stack of AI agent blocks rising toward a central label reading "459T AGENT ACTIONS PER YEAR BY 2030 (IDC, 2026)." Two people work at a monitor on the left, with flows of AI agent icons moving across the scene. Four risk callouts are attached to the illustration:]
+
+- **NO RUNTIME CONTROL:** Agents act without consistent policy enforcement
+- **MODEL LOCK-IN:** Teams get stuck with limited model choice and poor routing
+- **TOOL + DATA RISK:** Agents can overreach into apps, tools and sensitive data
+- **COST + GOVERNANCE:** Scale outpaces visibility, budget control and accountability
+
+OmniTrust's Halo AI Control Plane turns AI governance into operational control, giving enterprises visibility into AI use, enforcement over data and execution, and the freedom to optimize models, infrastructure and cost.
+
+**Discover**
+**Discover AI Across Your Enterprise**
+Gain visibility into sanctioned and Shadow AI through deep endpoint and browser discovery, with actionable inventories and evidence.
+
+**Control**
+**Govern & Enforce AI Use**
+Move from monitoring to active enforcement. Control applications, protect sensitive data and apply enterprise policies where employees work.
+
+**Optimize**
+**Secure & Optimize AI at Runtime**
+Govern model access, inspect AI requests, centrally manage budgets and enable flexible model/provider choices through Halo AI Gateway. These three statements should be the most memorable part of page one.
+
+[Figure: Architecture diagram. "Employees & AI Apps" on the left feed into three stacked layers:]
+
+- **HALO Endpoint** (top layer): Discover | ABOM | Control
+- **HALO AI Gateway** (middle layer): Runtime Governance | Model Routing
+- **HALO Compute Cloud** (bottom layer): Models | Inference | Sovereign Options
+
+[The right side shows "Model Providers" (logos including Anthropic-style, Google, Meta and others, shown with "..." to indicate more) and "External Tools & Data (via MCP)" (logos including database, Google Drive, Salesforce-style and Snowflake-style icons, with "...").]
+
+**Add-On: Halo Agent Studio**
+Give business teams an approved environment to build and deploy AI agents using the same Halo identity, data protection, policy, runtime and cost controls.
+
+**Build → Operate → Scale**
+
+© OmniTrust Security LLC
+
+---
+
+# Page 2
+
+| Capability | Features & Outcomes |
+|---|---|
+| Deep AI Discovery | Discover sanctioned and Shadow AI across supported desktop applications and browsers; identify affected devices and investigate usage. |
+| Endpoint & Browser Control | Apply centrally managed policies, block unauthorized AI applications and websites, and protect sensitive prompts. |
+| AI Gateway Runtime Security | Inspect requests before upstream model invocation, enforce policy and retain evidence of enforcement decisions. |
+| Centralized AI Spend Control | Set budgets once and enforce spending limits across supported AI applications and coding tools. |
+| Model & Provider Flexibility | Connect preferred inference providers, manage approved models and support private inference through Halo Compute Cloud. |
+| Auditability & Accountability | Review allowed and blocked activity, policy decisions, timestamps and supporting evidence. |
+
+[Figure: Screenshot of a dark-themed dashboard titled "Overview." Top metric tiles read 15, 18 and 32. The screen includes colored bar charts, a list of application names with red status markers, and a section labeled "Shadow AI." Text is too small to read reliably beyond these values.]
+
+**Built on Decades of Trust.**
+**Engineered for the AI Era.**
+
+OmniTrust extends decades of cybersecurity and cryptographic trust expertise into AI Lifecycle Management. Our **ILM/PKI Agentic Identity Fabric** provides cryptographic identity, authentication and lifecycle trust for autonomous agents, while **Halo discovers, governs and secures AI at runtime.**
+
+Together, they extend OmniTrust's Trust Lifecycle Management foundation from silicon and infrastructure to enterprise AI and autonomous agents.
+
+**Key Differentiators**
+*Security without disrupting productivity*
+
+Identity Fabric + Trust Infrastructure: ILM / PKI
+
+- **Keep the AI tools you already use:** Govern supported ChatGPT, Claude and coding-agent experiences without requiring employees to learn entirely new applications.
+- **One place to govern AI spending:** Central budget controls follow users across supported applications, models and providers.
+- **Protect enterprise credentials:** Brokered credentials and short-lived endpoint tokens help reduce exposure of provider API keys.
+- **Freedom of models and infrastructure:** Choose preferred models and providers, including supported privately hosted inference options.
+
+[Figure: Row of partner and supported-technology logos, including NVIDIA OpenShell, CrewAI, n8n, Gemini, Grok, Qwen and others.]
+
+**OmniTrust**
+www.OmniTrustHalo.com
+© OmniTrust Security LLC.
+
+OmniTrust secures the connected world, from silicon to cloud to AI, by delivering verifiable, enforceable trust across the full lifecycle. As the leader in Trust Lifecycle Management (TLM), OmniTrust protects over 2 billion devices and 3 billion software updates annually, extending trusted identity, security, and operational control from embedded systems to enterprise infrastructure and autonomous AI.
