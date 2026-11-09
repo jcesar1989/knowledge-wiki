@@ -6,4 +6,5 @@ _exec_*.ipynb
 .venv/
 .ipynb_checkpoints/
 benchmark_run.log
+nbrun.log
 .claude/
