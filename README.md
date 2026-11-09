@@ -61,24 +61,6 @@ originals/                                    Original source material
    ```
    The notebook estimates the build cost before creating any agent and stops if it exceeds the budget (`COOKBOOK_BUDGET_USD`, default $60). Models for each agent role are also set by environment variable (`COOKBOOK_BUILD_MODEL`, `COOKBOOK_CONSOLIDATE_MODEL`, `COOKBOOK_QUERY_MODEL`, `COOKBOOK_LEAD_MODEL`); the defaults use Claude Haiku 5.5 for the readers and Claude Sonnet 5.5 for the lead agent.
 
-## Demo in 60 seconds
-
-From a WSL terminal in this folder (the prompt shows `(.venv)` after the second line):
-
-```bash
-cd /mnt/c/Users/jsepu_gtyhk5i/OneDrive/Documents/knowledge-wiki
-source .venv/bin/activate
-python ask_wiki.py
-```
-
-Then ask at the `ask>` prompt. Good showcase questions, in order:
-
-1. `Which customers appear in more than one pamphlet?` — the wiki's party trick: a cross-document answer no single pamphlet contains, with sources.
-2. `Both OmniTrust pamphlets cite IDC projections for 2030. Do they agree?` — shows conflict-checking across documents.
-3. `What certification does Barndoor hold?` — a simple cited lookup, ~2 seconds.
-
-Each answer costs about $0.002 and names its sources. For the full story, show `assets/wiki_benchmark.png` and the notebook's saved build run (the Extract → Resolve → Analyze → Organize log in the "Run the build" cell).
-
 ## The benchmark
 
 ![Benchmark: on six pamphlets, wiki and raw-document analysts score the same; Haiku from the wiki 92.5 ± 3.9 at $0.0016 per answer](assets/wiki_benchmark.png)
