@@ -33,7 +33,9 @@ import utilities as kw
 
 load_dotenv()
 
-WIKI_STORE_ID = "memstore_01KHiinfcC8DsXUD1HJjvJbn"  # the build run's wiki store
+WIKI_STORE_ID = "memstore_01GhKJSA1DgJQsuATiuGDQR8"  # the current build's wiki store
+# benchmark_results.json was recorded against the November 7 build,
+# memstore_01KHiinfcC8DsXUD1HJjvJbn
 CORPUS = Path("pamphlet_corpus")
 REPEATS = 2
 CONCURRENCY = 6
