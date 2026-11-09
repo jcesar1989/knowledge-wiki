@@ -7,4 +7,5 @@ _exec_*.ipynb
 .ipynb_checkpoints/
 benchmark_run.log
 nbrun.log
+.ask_wiki_state.json
 .claude/

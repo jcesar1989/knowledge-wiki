@@ -35,6 +35,7 @@ Each result is cleaned (embedded images stripped, common OCR confusions like `Al
 distill_documents_into_knowledge_wiki.ipynb   The main notebook: build the wiki, query it, measure cost
 utilities.py                                  Helpers: normalization, batching, workflow tracking, reports
 convert_pamphlets.py                          OCR pipeline: my_pamphlets/*.pdf -> pamphlet_corpus/*.txt
+ask_wiki.py                                   Ask the existing wiki a question - no rebuild, ~$0.002/answer
 benchmark.py                                  Wiki-vs-raw-documents benchmark over the pamphlet corpus
 make_benchmark_chart.py                       Renders assets/wiki_benchmark.png from the benchmark results
 benchmark_results.json                        Every benchmark answer, judge score and summary
