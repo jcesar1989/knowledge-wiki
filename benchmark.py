@@ -31,7 +31,8 @@ from dotenv import load_dotenv
 
 import utilities as kw
 
-load_dotenv()
+# override=True: the project .env wins over any stale key exported in the shell
+load_dotenv(override=True)
 
 WIKI_STORE_ID = "memstore_01GhKJSA1DgJQsuATiuGDQR8"  # the current build's wiki store
 # benchmark_results.json was recorded against the November 7 build,
